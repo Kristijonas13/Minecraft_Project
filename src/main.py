@@ -1,3 +1,10 @@
+#Creator: Kristijonas Bileisis
+#Date Created: 3/12/2021
+#Last Modified: 3/14/2021
+#Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
+#Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
+#to the database, and deleting users and their corresponding data for users that no longer exist. 
+
 import requests 
 import sqlite3
 import time 
@@ -5,7 +12,6 @@ from new_player import initialize_new_players, check_for_new_players
 import logging 
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
-playerID_list = ['b75cd4f1-8df8-42ce-b2ac-c155913b204b', 'b75cd4f1-8df8-42ce-b2ac-c155913b204c']
 logging.basicConfig(filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log", level=logging.INFO)
 database = r"C:\Users\Kristijonas\minecraft_code\database\test_db.db"
 database2 = r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db" 
