@@ -16,6 +16,9 @@ logging.basicConfig(filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log"
 database = r"C:\Users\Kristijonas\minecraft_code\database\test_db.db"
 database2 = r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db" 
 
+#for testing purposes
+beast_name_list= ['Big_Snow_Bear','Big_Sand_Cat','Big_Bunny']
+
 
 def main():
   
@@ -33,7 +36,7 @@ def main():
         #check for new players; if new players exist, initialize them into the test_db
         new_playerID_list = check_for_new_players(essentials_path, cursor)
         if new_playerID_list: 
-            initialize_new_players(essentials_path, cursor, new_playerID_list)
+            initialize_new_players(essentials_path, cursor, new_playerID_list, beast_name_list)
         else: logging.info('No new users found in directory: ' + essentials_path)
         
         #close the cursors
