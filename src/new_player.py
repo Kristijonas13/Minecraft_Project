@@ -28,7 +28,7 @@ def check_for_new_players(essentials_path, cursor):
     
 
 
-def initialize_new_players(essentials_path, cursor, playerID_list):
+def initialize_new_players(essentials_path, cursor, playerID_list, beast_name_list):
 
     for playerID in playerID_list:
 
@@ -40,12 +40,10 @@ def initialize_new_players(essentials_path, cursor, playerID_list):
         player_info_insert_query = 'insert into player_info (playerID, user_race, user_name, last_login, date_joined) values (?,?,?,?,?)'
         cursor.execute(player_info_insert_query, player_info_tuple)
 
-        count= 1
-        while count <= 15:
-            legendary_beasts_killed_insert_query = 'insert into legendary_beasts_killed (playerID, beastID) values (?,?)'
-            legendary_beasts_tuple = (playerID, count)
+        for beast_name in beast_name_list:
+            legendary_beasts_killed_insert_query = 'insert into legendary_beasts_killed (playerID, beast_name) values (?,?)'
+            legendary_beasts_tuple = (playerID, beast_name)
             cursor.execute(legendary_beasts_killed_insert_query, legendary_beasts_tuple)
-            count= count + 1
 
 def get_date_joined(player_path):
 
