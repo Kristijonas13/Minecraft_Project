@@ -26,6 +26,19 @@ def check_if_mob_exists():
 def delete_mob_info():
 
 
-#
-#
-def check
+#compare database and minecraft server to see which legendary_beasts no longer exist
+#returns list of legendary_beast_names that no longer exist on the server
+def check_if_legendary_beast_exists():
+
+#takes in a list of legendary_beast_names and deletes those records from the legendary_beasts info table & drops_info table.
+#returns true/false based on if the legendary_beast was deleted successfully or not
+def delete_legendary_beast_info():
+
+
+#compare database and minecraft server to see which locations no longer exist
+#returns list of locationID's that no longer exist on the server
+def check_if_location_exists():
+
+# takes in a list of locationID's and deletes those records from the location_info table
+# returns true/false based on if the location was deleted successfully or not
+def delete_location_info():
