@@ -7,9 +7,13 @@ from datetime import datetime
 import sqlite3
 import os
 import yaml
+import logging 
 
+logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log", level=logging.INFO)
 
 def check_for_new_players(essentials_path, cursor):
+
+    logging.info('Checking for new  users in: %s', essentials_path)
     playerID_list = []
     player_dir = os.listdir(essentials_path)
     for player_file in player_dir:
@@ -24,6 +28,7 @@ def check_for_new_players(essentials_path, cursor):
                     playerExists= 1
         if playerExists == 0:
             playerID_list.append(playerID)
+            logging.info('Found new playerID in the essentials folder: %s', playerID)
     return playerID_list                
     
 
@@ -39,11 +44,15 @@ def initialize_new_players(essentials_path, cursor, playerID_list, beast_name_li
 
         player_info_insert_query = 'insert into player_info (playerID, user_race, user_name, last_login, date_joined) values (?,?,?,?,?)'
         cursor.execute(player_info_insert_query, player_info_tuple)
+        logging.info('''Inserted new data into player_info for playerID: %s 
+                        user_name: %s
+                        date_joined: %s ''', playerID, user_name, date_joined)
 
         for beast_name in beast_name_list:
             legendary_beasts_killed_insert_query = 'insert into legendary_beasts_killed (playerID, beast_name) values (?,?)'
             legendary_beasts_tuple = (playerID, beast_name)
             cursor.execute(legendary_beasts_killed_insert_query, legendary_beasts_tuple)
+        logging.info('Initialized legendary_beasts_killed database for playerID: %s', playerID)   
 
 def get_date_joined(player_path):
 

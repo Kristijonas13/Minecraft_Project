@@ -10,9 +10,10 @@ import sqlite3
 import time 
 from new_player import initialize_new_players, check_for_new_players
 import logging 
+from update_player_info import update_player_info_table
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
-logging.basicConfig(filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log", level=logging.INFO)
+logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log", level=logging.INFO)
 database = r"C:\Users\Kristijonas\minecraft_code\database\test_db.db"
 database2 = r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db" 
 
@@ -38,6 +39,8 @@ def main():
         if new_playerID_list: 
             initialize_new_players(essentials_path, cursor, new_playerID_list, beast_name_list)
         else: logging.info('No new users found in directory: ' + essentials_path)
+
+        update_player_info_table(essentials_path, cursor)
         
         #close the cursors
         cursor.close()
@@ -45,6 +48,7 @@ def main():
         
         #commit data to the database
         sqliteConnection.commit()
+        logging.info("Commited all changes to the test_db database.")
 
     except sqlite3.Error as error:
         print("Failed to insert data into sqlite table", error)
