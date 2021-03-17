@@ -28,6 +28,13 @@ def update_player_info_table(essentials_path, cursor, cursor2):
         playerID_list = []
     else: logging.info('No user_race needed to be udpated.')
 
+    playerID_list = check_number_of_deaths(cursor, cursor2)
+    if playerID_list:
+        update_number_of_deaths(playerID_list, cursor)
+        playerID_list = []
+    else: logging.info('number_of_deaths does not need to be udpated.')
+    
+
 
 #checks to see if the players username has changed 
 #returns nested list of playerID's & username for players whose username has changed
@@ -144,6 +151,48 @@ def update_user_race(new_race_list, cursor):
         logging.error("Failed to update user_race in player_info table: %s", error)
 
 
+#check if the number of times players have died has increased
+#returns nested list of playerID's and number of deaths
+def check_number_of_deaths(cursor, cursor2):
+    
+    try:
+
+        logging.info("Checking to see if the number of times players have died has changed.")
+        deaths_list = []
+
+        sqlite_deaths_pi_query = 'select playerID, number_of_deaths from player_info;'
+        cursor.execute(sqlite_deaths_pi_query)
+        pi_deaths_list = cursor.fetchall()
+
+        sqlite_deaths_bq_query = "select playerID, count from betonquest_points where category = 'stats-main_stats.number_of_deaths';"
+        cursor2.execute(sqlite_deaths_bq_query)
+        bq_deaths_list = cursor2.fetchall()
+
+        for pi_deaths in pi_deaths_list: 
+            for bq_deaths in bq_deaths_list:
+                if pi_deaths[0] == bq_deaths[0]:
+                    if pi_deaths[1] != bq_deaths[1]:
+                        deaths_list.append([pi_deaths[0], bq_deaths[1], pi_deaths[1]])
+                        logging.info("Number of deaths for playerID: %s needs to be updated.", pi_deaths[0])
+
+        return deaths_list
+
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving playerID & number_of_deaths: %s", error)
+
+#update how many times the player has died
+def update_number_of_deaths(deaths_list, cursor):
+    try: 
+        for deaths in deaths_list:
+        
+            player_info_update_query = "update player_info set number_of_deaths = '" + str(deaths[1]) + "' where playerID = '" + str(deaths[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated number_of_deaths for playerID: %s
+                                New number_of_deaths: %s
+                                Old number_of_deaths: %s ''', str(deaths[0]), str(deaths[1]), str(deaths[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update number_of_deaths in player_info table: %s", error)
+   
 
 
 '''
@@ -171,15 +220,6 @@ def check_money_balance():
 
 def update_money_balance():
     #update the money balance of the player
-    #returns true/false if the update was successful or not
-
-
-def check_number_of_deaths():
-    #check if the number of times the player has died has increased
-    #returns true/false
-
-def update_number_of_deaths():
-    #update how many times the player has died
     #returns true/false if the update was successful or not
 
 
