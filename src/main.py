@@ -1,6 +1,6 @@
 #Creator: Kristijonas Bileisis
 #Date Created: 3/12/2021
-#Last Modified: 3/15/2021
+#Last Modified: 3/16/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
@@ -10,7 +10,7 @@ import sqlite3
 import time 
 from new_player import initialize_new_players, check_for_new_players
 import logging 
-from update_player_info import update_player_info_table
+from update_player_info import update_player_info_table, check_user_race
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="C:/Users/Kristijonas/minecraft_code/logs/log1.log", level=logging.INFO)
@@ -40,7 +40,8 @@ def main():
             initialize_new_players(essentials_path, cursor, new_playerID_list, beast_name_list)
         else: logging.info('No new users found in directory: ' + essentials_path)
 
-        update_player_info_table(essentials_path, cursor)
+        update_player_info_table(essentials_path, cursor, cursor2)
+
         
         #close the cursors
         cursor.close()
@@ -51,7 +52,8 @@ def main():
         logging.info("Commited all changes to the test_db database.")
 
     except sqlite3.Error as error:
-        print("Failed to insert data into sqlite table", error)
+        print("Error:", error)
+        logging.error("Error: %s", error)
     finally:
         if sqliteConnection:
             sqliteConnection.close()

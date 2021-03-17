@@ -1,6 +1,6 @@
 #Creator: Kristijonas Bileisis
 #Date Created: 3/12/2021
-#Last Modified: 3/15/2021
+#Last Modified: 3/16/2021
 #Description: Python file containing functions that deal with inserting new players into the database. 
 
 from datetime import datetime
