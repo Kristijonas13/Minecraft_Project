@@ -1,6 +1,6 @@
 #Creator: Kristijonas Bileisis
 #Date Created: 3/14/2021
-#Last Modified: 3/16/2021
+#Last Modified: 4/01/2021
 #Description: Python file containing functions that deal with updating data in the player_info table. 
 
 from new_player import get_user_name
