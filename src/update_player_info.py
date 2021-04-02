@@ -7,6 +7,8 @@ from new_player import get_user_name
 import sqlite3
 import os
 import logging 
+import json
+from datetime import timedelta
 
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 
@@ -15,14 +17,15 @@ logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:
 def update_player_info_table(essentials_path, cursor, cursor2):
     
     playerID_list = []
-    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed']
+    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed', 'playtime']
 
     function_list = [check_user_name(essentials_path, cursor), 
                     check_user_race(cursor, cursor2), 
                     check_number_of_deaths(cursor, cursor2), 
                     check_main_quests_completed(cursor, cursor2),
                     check_side_quests_completed(cursor, cursor2),
-                    check_legendary_beasts_killed(cursor, cursor2)]
+                    check_legendary_beasts_killed(cursor, cursor2),
+                    check_playtime(cursor, cursor2)]
     count=0
     for f in function_list:
         playerID_list = f
@@ -33,9 +36,10 @@ def update_player_info_table(essentials_path, cursor, cursor2):
             elif count == 3: update_main_quests_completed(playerID_list, cursor)
             elif count == 4: update_side_quests_completed(playerID_list, cursor)
             elif count == 5: update_legendary_beasts_killed(playerID_list, cursor)
+            elif count == 6: update_playtime(playerID_list, cursor)
             playerID_list = []
         
-        else: logging.info ('No new changes to column: %s', column_list[count])
+        else: logging.info ('No new updates to %s', column_list[count])
         count= count + 1
 
         
@@ -249,6 +253,7 @@ def update_main_quests_completed(main_quests_list, cursor):
 #check if the player has completed more side quests
 #returns nested list of playerID's and side quests completed
 def check_side_quests_completed(cursor, cursor2):
+
     try: 
         logging.info("Checking if the number of side quests completed has changed for any players.")
         side_quests_list = []
@@ -291,6 +296,7 @@ def update_side_quests_completed(side_quests_list, cursor):
 
 
 def check_legendary_beasts_killed(cursor, cursor2):
+
     try: 
         logging.info("Checking if the number of legendary beasts killed has changed for any players.")
         legendary_beasts_list = []
@@ -317,7 +323,7 @@ def check_legendary_beasts_killed(cursor, cursor2):
         logging.error("Error retrieving playerID & legendary_beasts_killed: %s", error)
 
 
-#update how many side quests the player has completed   
+#update how many legendary beasts the player has killed
 def update_legendary_beasts_killed(legendary_beasts_list, cursor):
 
     try: 
@@ -330,6 +336,9 @@ def update_legendary_beasts_killed(legendary_beasts_list, cursor):
                                 Old legendary_beasts_killed: %s ''', str(legendary_beasts[0]), str(legendary_beasts[1]), str(legendary_beasts[2]))
     except sqlite3.Error as error: 
         logging.error("Failed to update legendary_beasts_killed in player_info table: %s", error)
+
+
+
 '''
 def check_money_balance():
     #check if the player has lost/earned more money
@@ -338,16 +347,69 @@ def check_money_balance():
 def update_money_balance():
     #update the money balance of the player
     #returns true/false if the update was successful or not
-
-def check_playtime():
-    #check if the playtime for the player has increased
-    #returns true/false
-
-def update_playtime():
-    #update the playtime fo the player
-    #returns true/false if the update was successful or not
+'''
 
 
+def check_playtime(cursor, cursor2):
+    
+    try: 
+
+        logging.info("Checking for updates to: PLAYTIME")
+        new_playtime_list = []
+        update_playtime_list = []
+        # where to look for stats files
+        statsDir = 'C:/Users/Kristijonas/Desktop/Spigot/World/Stats'
+        # where to save the results
+        # total in secconds: 1 minecraft min = 0.83 irl secconds
+        total = 0.000
+
+        # change to the stats dir
+        os.chdir(statsDir)
+
+        for filename in os.listdir(statsDir):
+            f = open(filename,'r')
+            data = json.load(f)
+            total += data['stats']['minecraft:custom']['minecraft:play_one_minute']
+            # divide into irl secconds then convert to days. 
+            # total/20/60 = irl mins
+            total = ((total/20)/60)
+            new_playtime_list.append([str(filename)[:-5],str(timedelta(minutes=total))[:-3]])
+
+            # print('the total is: %d days' % (total) )
+            #outputFile = open("playtimeCounter.txt", "w")
+            #outputFile.write(str(total))
+
+        sqlite_pi_playtime_query = 'select playerID, playtime from player_info;'
+        cursor.execute(sqlite_pi_playtime_query)
+        pi_playtime_list = cursor.fetchall()
+
+        for pi_playtime in pi_playtime_list: 
+            for new_playtime in new_playtime_list:
+                if pi_playtime[0] == new_playtime[0]:
+                    if pi_playtime[1] != new_playtime[1]:
+                        update_playtime_list.append([pi_playtime[0], new_playtime[1], pi_playtime[1]])
+                        logging.info("The PLAYTIME for playerID: %s needs to be updated.", pi_playtime[0])
+
+        return update_playtime_list
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving PLAYERID & PLAYTIME: %s", error)
+
+
+def update_playtime(update_playtime_list, cursor):
+
+    try: 
+        for update_playtime in update_playtime_list:
+        
+            player_info_update_query = "update player_info set playtime = '" + str(update_playtime[1]) + "' where playerID = '" + str(update_playtime[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated playtime for playerID: %s
+                                New playtime: %s
+                                Old playtime %s ''', str(update_playtime[0]), str(update_playtime[1]), str(update_playtime[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update PLAYTIME in player_info table: %s", error)
+
+
+'''
 def check_last_login():
     #check if the last time the player has logged in has changed
     #returns true/false
