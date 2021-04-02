@@ -982,3 +982,723 @@ INFO:2021-04-02 09:45:24,633:main_quests_completed does not need to be udpated.
 INFO:2021-04-02 09:45:24,633:Commited all changes to the test_db database.
 INFO:2021-04-02 09:45:24,634:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
 INFO:2021-04-02 09:45:24,634:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:45:44,635:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:45:44,635:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:45:44,635:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:45:44,635:No new users found.
+INFO:2021-04-02 09:45:44,635:Checking for potential updates to usernames.
+INFO:2021-04-02 09:45:44,637:No usernames needed to be updated.
+INFO:2021-04-02 09:45:44,637:Checking for potential updates to the players race.
+INFO:2021-04-02 09:45:44,637:No user_race needed to be udpated.
+INFO:2021-04-02 09:45:44,637:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:45:44,638:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:45:44,638:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:45:44,638:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:45:44,638:Commited all changes to the test_db database.
+INFO:2021-04-02 09:45:44,638:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:45:44,638:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:04,639:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:04,639:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:04,639:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:46:04,639:No new users found.
+INFO:2021-04-02 09:46:04,640:Checking for potential updates to usernames.
+INFO:2021-04-02 09:46:04,641:No usernames needed to be updated.
+INFO:2021-04-02 09:46:04,641:Checking for potential updates to the players race.
+INFO:2021-04-02 09:46:04,641:No user_race needed to be udpated.
+INFO:2021-04-02 09:46:04,641:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:46:04,642:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:46:04,642:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:46:04,642:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:46:04,642:Commited all changes to the test_db database.
+INFO:2021-04-02 09:46:04,642:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:04,642:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:24,642:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:24,643:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:24,643:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:46:24,645:No new users found.
+INFO:2021-04-02 09:46:24,645:Checking for potential updates to usernames.
+INFO:2021-04-02 09:46:24,648:No usernames needed to be updated.
+INFO:2021-04-02 09:46:24,648:Checking for potential updates to the players race.
+INFO:2021-04-02 09:46:24,649:No user_race needed to be udpated.
+INFO:2021-04-02 09:46:24,649:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:46:24,649:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:46:24,649:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:46:24,649:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:46:24,649:Commited all changes to the test_db database.
+INFO:2021-04-02 09:46:24,649:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:24,649:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:44,650:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:44,650:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:46:44,650:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:46:44,650:No new users found.
+INFO:2021-04-02 09:46:44,650:Checking for potential updates to usernames.
+INFO:2021-04-02 09:46:44,652:No usernames needed to be updated.
+INFO:2021-04-02 09:46:44,652:Checking for potential updates to the players race.
+INFO:2021-04-02 09:46:44,652:No user_race needed to be udpated.
+INFO:2021-04-02 09:46:44,652:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:46:44,652:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:46:44,652:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:46:44,653:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:46:44,653:Commited all changes to the test_db database.
+INFO:2021-04-02 09:46:44,653:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:46:44,653:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:04,653:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:04,653:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:04,653:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:47:04,653:No new users found.
+INFO:2021-04-02 09:47:04,653:Checking for potential updates to usernames.
+INFO:2021-04-02 09:47:04,655:No usernames needed to be updated.
+INFO:2021-04-02 09:47:04,655:Checking for potential updates to the players race.
+INFO:2021-04-02 09:47:04,655:No user_race needed to be udpated.
+INFO:2021-04-02 09:47:04,655:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:47:04,655:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:47:04,655:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:47:04,655:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:47:04,656:Commited all changes to the test_db database.
+INFO:2021-04-02 09:47:04,656:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:04,656:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:24,656:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:24,656:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:24,658:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:47:24,659:No new users found.
+INFO:2021-04-02 09:47:24,659:Checking for potential updates to usernames.
+INFO:2021-04-02 09:47:24,662:No usernames needed to be updated.
+INFO:2021-04-02 09:47:24,662:Checking for potential updates to the players race.
+INFO:2021-04-02 09:47:24,663:No user_race needed to be udpated.
+INFO:2021-04-02 09:47:24,663:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:47:24,663:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:47:24,663:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:47:24,663:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:47:24,663:Commited all changes to the test_db database.
+INFO:2021-04-02 09:47:24,663:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:24,663:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:44,663:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:44,663:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:47:44,663:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:47:44,664:No new users found.
+INFO:2021-04-02 09:47:44,664:Checking for potential updates to usernames.
+INFO:2021-04-02 09:47:44,665:No usernames needed to be updated.
+INFO:2021-04-02 09:47:44,665:Checking for potential updates to the players race.
+INFO:2021-04-02 09:47:44,665:No user_race needed to be udpated.
+INFO:2021-04-02 09:47:44,666:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:47:44,666:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:47:44,666:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:47:44,666:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:47:44,666:Commited all changes to the test_db database.
+INFO:2021-04-02 09:47:44,666:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:47:44,666:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:04,666:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:04,666:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:04,666:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:48:04,666:No new users found.
+INFO:2021-04-02 09:48:04,666:Checking for potential updates to usernames.
+INFO:2021-04-02 09:48:04,668:No usernames needed to be updated.
+INFO:2021-04-02 09:48:04,668:Checking for potential updates to the players race.
+INFO:2021-04-02 09:48:04,668:No user_race needed to be udpated.
+INFO:2021-04-02 09:48:04,668:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:48:04,668:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:48:04,668:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:48:04,669:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:48:04,669:Commited all changes to the test_db database.
+INFO:2021-04-02 09:48:04,669:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:04,669:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:24,670:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:24,671:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:24,672:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:48:24,673:No new users found.
+INFO:2021-04-02 09:48:24,673:Checking for potential updates to usernames.
+INFO:2021-04-02 09:48:24,676:No usernames needed to be updated.
+INFO:2021-04-02 09:48:24,676:Checking for potential updates to the players race.
+INFO:2021-04-02 09:48:24,676:No user_race needed to be udpated.
+INFO:2021-04-02 09:48:24,676:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:48:24,676:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:48:24,677:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:48:24,677:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:48:24,677:Commited all changes to the test_db database.
+INFO:2021-04-02 09:48:24,677:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:24,677:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:44,677:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:44,677:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:48:44,677:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:48:44,677:No new users found.
+INFO:2021-04-02 09:48:44,677:Checking for potential updates to usernames.
+INFO:2021-04-02 09:48:44,679:No usernames needed to be updated.
+INFO:2021-04-02 09:48:44,679:Checking for potential updates to the players race.
+INFO:2021-04-02 09:48:44,679:No user_race needed to be udpated.
+INFO:2021-04-02 09:48:44,679:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:48:44,679:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:48:44,680:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:48:44,680:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:48:44,680:Commited all changes to the test_db database.
+INFO:2021-04-02 09:48:44,680:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:48:44,680:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:04,681:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:04,681:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:04,681:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:49:04,681:No new users found.
+INFO:2021-04-02 09:49:04,681:Checking for potential updates to usernames.
+INFO:2021-04-02 09:49:04,683:No usernames needed to be updated.
+INFO:2021-04-02 09:49:04,683:Checking for potential updates to the players race.
+INFO:2021-04-02 09:49:04,683:No user_race needed to be udpated.
+INFO:2021-04-02 09:49:04,684:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:49:04,684:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:49:04,684:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:49:04,684:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:49:04,684:Commited all changes to the test_db database.
+INFO:2021-04-02 09:49:04,684:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:04,684:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:24,685:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:24,686:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:24,686:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:49:24,688:No new users found.
+INFO:2021-04-02 09:49:24,688:Checking for potential updates to usernames.
+INFO:2021-04-02 09:49:24,691:No usernames needed to be updated.
+INFO:2021-04-02 09:49:24,691:Checking for potential updates to the players race.
+INFO:2021-04-02 09:49:24,691:No user_race needed to be udpated.
+INFO:2021-04-02 09:49:24,691:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:49:24,691:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:49:24,692:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:49:24,692:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:49:24,692:Commited all changes to the test_db database.
+INFO:2021-04-02 09:49:24,692:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:24,692:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:44,692:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:44,693:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:49:44,694:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:49:44,695:No new users found.
+INFO:2021-04-02 09:49:44,696:Checking for potential updates to usernames.
+INFO:2021-04-02 09:49:44,698:No usernames needed to be updated.
+INFO:2021-04-02 09:49:44,698:Checking for potential updates to the players race.
+INFO:2021-04-02 09:49:44,698:No user_race needed to be udpated.
+INFO:2021-04-02 09:49:44,698:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:49:44,698:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:49:44,698:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:49:44,699:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:49:44,699:Commited all changes to the test_db database.
+INFO:2021-04-02 09:49:44,699:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:49:44,699:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:04,699:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:04,699:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:04,699:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:50:04,700:No new users found.
+INFO:2021-04-02 09:50:04,700:Checking for potential updates to usernames.
+INFO:2021-04-02 09:50:04,703:No usernames needed to be updated.
+INFO:2021-04-02 09:50:04,703:Checking for potential updates to the players race.
+INFO:2021-04-02 09:50:04,704:No user_race needed to be udpated.
+INFO:2021-04-02 09:50:04,704:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:50:04,704:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:50:04,704:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:50:04,704:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:50:04,704:Commited all changes to the test_db database.
+INFO:2021-04-02 09:50:04,704:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:04,704:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:24,705:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:24,705:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:24,705:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:50:24,706:No new users found.
+INFO:2021-04-02 09:50:24,706:Checking for potential updates to usernames.
+INFO:2021-04-02 09:50:24,708:No usernames needed to be updated.
+INFO:2021-04-02 09:50:24,708:Checking for potential updates to the players race.
+INFO:2021-04-02 09:50:24,709:No user_race needed to be udpated.
+INFO:2021-04-02 09:50:24,709:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:50:24,709:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:50:24,709:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:50:24,709:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:50:24,709:Commited all changes to the test_db database.
+INFO:2021-04-02 09:50:24,710:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:24,710:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:44,710:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:44,711:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:50:44,712:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:50:44,713:No new users found.
+INFO:2021-04-02 09:50:44,714:Checking for potential updates to usernames.
+INFO:2021-04-02 09:50:44,722:No usernames needed to be updated.
+INFO:2021-04-02 09:50:44,722:Checking for potential updates to the players race.
+INFO:2021-04-02 09:50:44,724:No user_race needed to be udpated.
+INFO:2021-04-02 09:50:44,724:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:50:44,725:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:50:44,725:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:50:44,726:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:50:44,726:Commited all changes to the test_db database.
+INFO:2021-04-02 09:50:44,726:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:50:44,727:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:04,728:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:04,728:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:04,728:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:51:04,729:No new users found.
+INFO:2021-04-02 09:51:04,729:Checking for potential updates to usernames.
+INFO:2021-04-02 09:51:04,730:No usernames needed to be updated.
+INFO:2021-04-02 09:51:04,730:Checking for potential updates to the players race.
+INFO:2021-04-02 09:51:04,731:No user_race needed to be udpated.
+INFO:2021-04-02 09:51:04,731:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:51:04,731:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:51:04,731:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:51:04,731:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:51:04,731:Commited all changes to the test_db database.
+INFO:2021-04-02 09:51:04,731:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:04,731:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:24,731:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:24,732:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:24,732:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:51:24,734:No new users found.
+INFO:2021-04-02 09:51:24,734:Checking for potential updates to usernames.
+INFO:2021-04-02 09:51:24,737:No usernames needed to be updated.
+INFO:2021-04-02 09:51:24,737:Checking for potential updates to the players race.
+INFO:2021-04-02 09:51:24,737:No user_race needed to be udpated.
+INFO:2021-04-02 09:51:24,737:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:51:24,738:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:51:24,738:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:51:24,738:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:51:24,738:Commited all changes to the test_db database.
+INFO:2021-04-02 09:51:24,738:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:24,738:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:44,738:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:44,739:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:51:44,739:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:51:44,741:No new users found.
+INFO:2021-04-02 09:51:44,741:Checking for potential updates to usernames.
+INFO:2021-04-02 09:51:44,744:No usernames needed to be updated.
+INFO:2021-04-02 09:51:44,744:Checking for potential updates to the players race.
+INFO:2021-04-02 09:51:44,744:No user_race needed to be udpated.
+INFO:2021-04-02 09:51:44,744:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:51:44,744:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:51:44,744:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:51:44,744:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:51:44,744:Commited all changes to the test_db database.
+INFO:2021-04-02 09:51:44,745:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:51:44,745:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:04,746:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:04,746:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:04,746:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:52:04,746:No new users found.
+INFO:2021-04-02 09:52:04,746:Checking for potential updates to usernames.
+INFO:2021-04-02 09:52:04,748:No usernames needed to be updated.
+INFO:2021-04-02 09:52:04,748:Checking for potential updates to the players race.
+INFO:2021-04-02 09:52:04,748:No user_race needed to be udpated.
+INFO:2021-04-02 09:52:04,748:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:52:04,749:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:52:04,749:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:52:04,749:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:52:04,749:Commited all changes to the test_db database.
+INFO:2021-04-02 09:52:04,749:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:04,749:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:24,749:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:24,750:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:24,750:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:52:24,752:No new users found.
+INFO:2021-04-02 09:52:24,752:Checking for potential updates to usernames.
+INFO:2021-04-02 09:52:24,755:No usernames needed to be updated.
+INFO:2021-04-02 09:52:24,755:Checking for potential updates to the players race.
+INFO:2021-04-02 09:52:24,756:No user_race needed to be udpated.
+INFO:2021-04-02 09:52:24,756:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:52:24,756:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:52:24,756:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:52:24,756:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:52:24,756:Commited all changes to the test_db database.
+INFO:2021-04-02 09:52:24,756:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:24,756:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:44,757:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:44,758:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:52:44,759:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:52:44,760:No new users found.
+INFO:2021-04-02 09:52:44,761:Checking for potential updates to usernames.
+INFO:2021-04-02 09:52:44,763:No usernames needed to be updated.
+INFO:2021-04-02 09:52:44,763:Checking for potential updates to the players race.
+INFO:2021-04-02 09:52:44,763:No user_race needed to be udpated.
+INFO:2021-04-02 09:52:44,763:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:52:44,763:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:52:44,763:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:52:44,764:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:52:44,764:Commited all changes to the test_db database.
+INFO:2021-04-02 09:52:44,764:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:52:44,764:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:04,764:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:04,764:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:04,764:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:53:04,764:No new users found.
+INFO:2021-04-02 09:53:04,764:Checking for potential updates to usernames.
+INFO:2021-04-02 09:53:04,766:No usernames needed to be updated.
+INFO:2021-04-02 09:53:04,766:Checking for potential updates to the players race.
+INFO:2021-04-02 09:53:04,766:No user_race needed to be udpated.
+INFO:2021-04-02 09:53:04,766:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:53:04,766:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:53:04,767:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:53:04,767:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:53:04,767:Commited all changes to the test_db database.
+INFO:2021-04-02 09:53:04,767:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:04,767:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:24,768:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:24,769:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:24,769:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:53:24,771:No new users found.
+INFO:2021-04-02 09:53:24,771:Checking for potential updates to usernames.
+INFO:2021-04-02 09:53:24,779:No usernames needed to be updated.
+INFO:2021-04-02 09:53:24,779:Checking for potential updates to the players race.
+INFO:2021-04-02 09:53:24,779:No user_race needed to be udpated.
+INFO:2021-04-02 09:53:24,779:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:53:24,779:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:53:24,780:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:53:24,780:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:53:24,780:Commited all changes to the test_db database.
+INFO:2021-04-02 09:53:24,780:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:24,780:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:44,780:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:44,781:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:53:44,782:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:53:44,783:No new users found.
+INFO:2021-04-02 09:53:44,783:Checking for potential updates to usernames.
+INFO:2021-04-02 09:53:44,786:No usernames needed to be updated.
+INFO:2021-04-02 09:53:44,786:Checking for potential updates to the players race.
+INFO:2021-04-02 09:53:44,786:No user_race needed to be udpated.
+INFO:2021-04-02 09:53:44,786:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:53:44,786:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:53:44,786:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:53:44,786:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:53:44,786:Commited all changes to the test_db database.
+INFO:2021-04-02 09:53:44,787:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:53:44,787:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:04,787:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:04,787:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:04,787:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:54:04,787:No new users found.
+INFO:2021-04-02 09:54:04,787:Checking for potential updates to usernames.
+INFO:2021-04-02 09:54:04,789:No usernames needed to be updated.
+INFO:2021-04-02 09:54:04,789:Checking for potential updates to the players race.
+INFO:2021-04-02 09:54:04,789:No user_race needed to be udpated.
+INFO:2021-04-02 09:54:04,789:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:54:04,789:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:54:04,789:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:54:04,790:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:54:04,790:Commited all changes to the test_db database.
+INFO:2021-04-02 09:54:04,790:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:04,790:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:24,790:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:24,790:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:24,790:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:54:24,790:No new users found.
+INFO:2021-04-02 09:54:24,791:Checking for potential updates to usernames.
+INFO:2021-04-02 09:54:24,792:No usernames needed to be updated.
+INFO:2021-04-02 09:54:24,792:Checking for potential updates to the players race.
+INFO:2021-04-02 09:54:24,793:No user_race needed to be udpated.
+INFO:2021-04-02 09:54:24,793:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:54:24,793:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:54:24,793:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:54:24,793:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:54:24,793:Commited all changes to the test_db database.
+INFO:2021-04-02 09:54:24,794:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:24,794:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:44,795:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:44,795:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:54:44,795:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:54:44,795:No new users found.
+INFO:2021-04-02 09:54:44,795:Checking for potential updates to usernames.
+INFO:2021-04-02 09:54:44,797:No usernames needed to be updated.
+INFO:2021-04-02 09:54:44,797:Checking for potential updates to the players race.
+INFO:2021-04-02 09:54:44,797:No user_race needed to be udpated.
+INFO:2021-04-02 09:54:44,797:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:54:44,797:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:54:44,797:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:54:44,798:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:54:44,798:Commited all changes to the test_db database.
+INFO:2021-04-02 09:54:44,798:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:54:44,798:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:04,798:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:04,798:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:04,798:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:55:04,798:No new users found.
+INFO:2021-04-02 09:55:04,798:Checking for potential updates to usernames.
+INFO:2021-04-02 09:55:04,800:No usernames needed to be updated.
+INFO:2021-04-02 09:55:04,800:Checking for potential updates to the players race.
+INFO:2021-04-02 09:55:04,800:No user_race needed to be udpated.
+INFO:2021-04-02 09:55:04,800:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:55:04,801:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:55:04,801:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:55:04,801:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:55:04,801:Commited all changes to the test_db database.
+INFO:2021-04-02 09:55:04,801:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:04,801:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:24,802:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:24,802:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:24,802:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:55:24,802:No new users found.
+INFO:2021-04-02 09:55:24,802:Checking for potential updates to usernames.
+INFO:2021-04-02 09:55:24,804:No usernames needed to be updated.
+INFO:2021-04-02 09:55:24,804:Checking for potential updates to the players race.
+INFO:2021-04-02 09:55:24,804:No user_race needed to be udpated.
+INFO:2021-04-02 09:55:24,804:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:55:24,804:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:55:24,804:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:55:24,805:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:55:24,805:Commited all changes to the test_db database.
+INFO:2021-04-02 09:55:24,805:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:24,805:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:44,805:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:44,806:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:55:44,806:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:55:44,808:No new users found.
+INFO:2021-04-02 09:55:44,809:Checking for potential updates to usernames.
+INFO:2021-04-02 09:55:44,811:No usernames needed to be updated.
+INFO:2021-04-02 09:55:44,811:Checking for potential updates to the players race.
+INFO:2021-04-02 09:55:44,811:No user_race needed to be udpated.
+INFO:2021-04-02 09:55:44,811:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:55:44,811:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:55:44,811:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:55:44,811:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:55:44,811:Commited all changes to the test_db database.
+INFO:2021-04-02 09:55:44,811:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:55:44,812:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:04,813:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:04,813:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:04,813:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:56:04,813:No new users found.
+INFO:2021-04-02 09:56:04,813:Checking for potential updates to usernames.
+INFO:2021-04-02 09:56:04,815:No usernames needed to be updated.
+INFO:2021-04-02 09:56:04,815:Checking for potential updates to the players race.
+INFO:2021-04-02 09:56:04,815:No user_race needed to be udpated.
+INFO:2021-04-02 09:56:04,815:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:56:04,815:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:56:04,815:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:56:04,816:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:56:04,816:Commited all changes to the test_db database.
+INFO:2021-04-02 09:56:04,816:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:04,816:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:24,817:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:24,818:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:24,818:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:56:24,820:No new users found.
+INFO:2021-04-02 09:56:24,820:Checking for potential updates to usernames.
+INFO:2021-04-02 09:56:24,822:No usernames needed to be updated.
+INFO:2021-04-02 09:56:24,822:Checking for potential updates to the players race.
+INFO:2021-04-02 09:56:24,823:No user_race needed to be udpated.
+INFO:2021-04-02 09:56:24,823:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:56:24,823:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:56:24,823:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:56:24,823:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:56:24,823:Commited all changes to the test_db database.
+INFO:2021-04-02 09:56:24,823:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:24,823:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:44,824:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:44,824:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:56:44,824:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:56:44,824:No new users found.
+INFO:2021-04-02 09:56:44,824:Checking for potential updates to usernames.
+INFO:2021-04-02 09:56:44,826:No usernames needed to be updated.
+INFO:2021-04-02 09:56:44,826:Checking for potential updates to the players race.
+INFO:2021-04-02 09:56:44,826:No user_race needed to be udpated.
+INFO:2021-04-02 09:56:44,826:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:56:44,826:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:56:44,826:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:56:44,827:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:56:44,827:Commited all changes to the test_db database.
+INFO:2021-04-02 09:56:44,827:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:56:44,827:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:04,828:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:04,828:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:04,828:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:57:04,828:No new users found.
+INFO:2021-04-02 09:57:04,828:Checking for potential updates to usernames.
+INFO:2021-04-02 09:57:04,830:No usernames needed to be updated.
+INFO:2021-04-02 09:57:04,830:Checking for potential updates to the players race.
+INFO:2021-04-02 09:57:04,830:No user_race needed to be udpated.
+INFO:2021-04-02 09:57:04,830:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:57:04,830:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:57:04,831:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:57:04,831:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:57:04,831:Commited all changes to the test_db database.
+INFO:2021-04-02 09:57:04,831:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:04,831:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:24,831:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:24,831:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:24,831:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:57:24,831:No new users found.
+INFO:2021-04-02 09:57:24,831:Checking for potential updates to usernames.
+INFO:2021-04-02 09:57:24,833:No usernames needed to be updated.
+INFO:2021-04-02 09:57:24,833:Checking for potential updates to the players race.
+INFO:2021-04-02 09:57:24,833:No user_race needed to be udpated.
+INFO:2021-04-02 09:57:24,833:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:57:24,833:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:57:24,833:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:57:24,833:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:57:24,833:Commited all changes to the test_db database.
+INFO:2021-04-02 09:57:24,834:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:24,834:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:44,835:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:44,835:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:57:44,835:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:57:44,836:No new users found.
+INFO:2021-04-02 09:57:44,836:Checking for potential updates to usernames.
+INFO:2021-04-02 09:57:44,838:No usernames needed to be updated.
+INFO:2021-04-02 09:57:44,838:Checking for potential updates to the players race.
+INFO:2021-04-02 09:57:44,838:No user_race needed to be udpated.
+INFO:2021-04-02 09:57:44,838:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:57:44,839:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:57:44,839:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:57:44,839:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:57:44,839:Commited all changes to the test_db database.
+INFO:2021-04-02 09:57:44,839:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:57:44,839:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:04,839:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:04,839:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:04,839:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:58:04,839:No new users found.
+INFO:2021-04-02 09:58:04,839:Checking for potential updates to usernames.
+INFO:2021-04-02 09:58:04,841:No usernames needed to be updated.
+INFO:2021-04-02 09:58:04,841:Checking for potential updates to the players race.
+INFO:2021-04-02 09:58:04,841:No user_race needed to be udpated.
+INFO:2021-04-02 09:58:04,841:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:58:04,841:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:58:04,841:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:58:04,842:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:58:04,842:Commited all changes to the test_db database.
+INFO:2021-04-02 09:58:04,842:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:04,842:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:24,842:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:24,843:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:24,843:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:58:24,845:No new users found.
+INFO:2021-04-02 09:58:24,845:Checking for potential updates to usernames.
+INFO:2021-04-02 09:58:24,848:No usernames needed to be updated.
+INFO:2021-04-02 09:58:24,849:Checking for potential updates to the players race.
+INFO:2021-04-02 09:58:24,849:No user_race needed to be udpated.
+INFO:2021-04-02 09:58:24,849:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:58:24,849:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:58:24,849:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:58:24,849:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:58:24,849:Commited all changes to the test_db database.
+INFO:2021-04-02 09:58:24,849:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:24,849:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:44,850:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:44,850:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:58:44,850:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:58:44,850:No new users found.
+INFO:2021-04-02 09:58:44,850:Checking for potential updates to usernames.
+INFO:2021-04-02 09:58:44,852:No usernames needed to be updated.
+INFO:2021-04-02 09:58:44,852:Checking for potential updates to the players race.
+INFO:2021-04-02 09:58:44,852:No user_race needed to be udpated.
+INFO:2021-04-02 09:58:44,852:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:58:44,853:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:58:44,853:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:58:44,853:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:58:44,853:Commited all changes to the test_db database.
+INFO:2021-04-02 09:58:44,853:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:58:44,853:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:04,853:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:04,854:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:04,854:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:59:04,856:No new users found.
+INFO:2021-04-02 09:59:04,856:Checking for potential updates to usernames.
+INFO:2021-04-02 09:59:04,865:No usernames needed to be updated.
+INFO:2021-04-02 09:59:04,865:Checking for potential updates to the players race.
+INFO:2021-04-02 09:59:04,867:No user_race needed to be udpated.
+INFO:2021-04-02 09:59:04,867:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:59:04,868:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:59:04,868:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:59:04,869:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:59:04,869:Commited all changes to the test_db database.
+INFO:2021-04-02 09:59:04,870:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:04,870:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:24,871:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:24,871:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:24,871:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:59:24,871:No new users found.
+INFO:2021-04-02 09:59:24,871:Checking for potential updates to usernames.
+INFO:2021-04-02 09:59:24,873:No usernames needed to be updated.
+INFO:2021-04-02 09:59:24,873:Checking for potential updates to the players race.
+INFO:2021-04-02 09:59:24,873:No user_race needed to be udpated.
+INFO:2021-04-02 09:59:24,873:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:59:24,873:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:59:24,873:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:59:24,874:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:59:24,874:Commited all changes to the test_db database.
+INFO:2021-04-02 09:59:24,874:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:24,874:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:44,874:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:44,874:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 09:59:44,874:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 09:59:44,874:No new users found.
+INFO:2021-04-02 09:59:44,874:Checking for potential updates to usernames.
+INFO:2021-04-02 09:59:44,876:No usernames needed to be updated.
+INFO:2021-04-02 09:59:44,876:Checking for potential updates to the players race.
+INFO:2021-04-02 09:59:44,876:No user_race needed to be udpated.
+INFO:2021-04-02 09:59:44,876:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 09:59:44,876:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 09:59:44,877:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 09:59:44,877:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 09:59:44,877:Commited all changes to the test_db database.
+INFO:2021-04-02 09:59:44,877:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 09:59:44,877:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:04,877:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:04,878:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:04,878:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 10:00:04,880:No new users found.
+INFO:2021-04-02 10:00:04,880:Checking for potential updates to usernames.
+INFO:2021-04-02 10:00:04,883:No usernames needed to be updated.
+INFO:2021-04-02 10:00:04,884:Checking for potential updates to the players race.
+INFO:2021-04-02 10:00:04,884:No user_race needed to be udpated.
+INFO:2021-04-02 10:00:04,884:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 10:00:04,884:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 10:00:04,884:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 10:00:04,884:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 10:00:04,884:Commited all changes to the test_db database.
+INFO:2021-04-02 10:00:04,884:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:04,884:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:24,885:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:24,886:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:24,887:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 10:00:24,888:No new users found.
+INFO:2021-04-02 10:00:24,888:Checking for potential updates to usernames.
+INFO:2021-04-02 10:00:24,891:No usernames needed to be updated.
+INFO:2021-04-02 10:00:24,891:Checking for potential updates to the players race.
+INFO:2021-04-02 10:00:24,891:No user_race needed to be udpated.
+INFO:2021-04-02 10:00:24,891:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 10:00:24,891:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 10:00:24,892:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 10:00:24,892:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 10:00:24,892:Commited all changes to the test_db database.
+INFO:2021-04-02 10:00:24,892:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:24,892:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:44,893:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:44,894:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:00:44,895:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 10:00:44,896:No new users found.
+INFO:2021-04-02 10:00:44,897:Checking for potential updates to usernames.
+INFO:2021-04-02 10:00:44,905:No usernames needed to be updated.
+INFO:2021-04-02 10:00:44,905:Checking for potential updates to the players race.
+INFO:2021-04-02 10:00:44,907:No user_race needed to be udpated.
+INFO:2021-04-02 10:00:44,907:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 10:00:44,908:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 10:00:44,908:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 10:00:44,909:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 10:00:44,909:Commited all changes to the test_db database.
+INFO:2021-04-02 10:00:44,910:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:00:44,910:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:01:04,910:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:01:04,910:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:01:04,910:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 10:01:04,911:No new users found.
+INFO:2021-04-02 10:01:04,911:Checking for potential updates to usernames.
+INFO:2021-04-02 10:01:04,912:No usernames needed to be updated.
+INFO:2021-04-02 10:01:04,912:Checking for potential updates to the players race.
+INFO:2021-04-02 10:01:04,912:No user_race needed to be udpated.
+INFO:2021-04-02 10:01:04,912:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 10:01:04,913:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 10:01:04,913:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 10:01:04,913:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 10:01:04,913:Commited all changes to the test_db database.
+INFO:2021-04-02 10:01:04,913:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:01:04,913:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:01:24,913:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:01:24,913:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 10:01:24,913:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 10:01:24,913:No new users found.
+INFO:2021-04-02 10:01:24,913:Checking for potential updates to usernames.
+INFO:2021-04-02 10:01:24,915:No usernames needed to be updated.
+INFO:2021-04-02 10:01:24,915:Checking for potential updates to the players race.
+INFO:2021-04-02 10:01:24,915:No user_race needed to be udpated.
+INFO:2021-04-02 10:01:24,915:Checking to see if the number of times players have died has changed.
+INFO:2021-04-02 10:01:24,915:number_of_deaths does not need to be udpated.
+INFO:2021-04-02 10:01:24,915:Checking to if the number of main quests completed has changed for any players.
+INFO:2021-04-02 10:01:24,916:main_quests_completed does not need to be udpated.
+INFO:2021-04-02 10:01:24,916:Commited all changes to the test_db database.
+INFO:2021-04-02 10:01:24,916:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 10:01:24,916:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db

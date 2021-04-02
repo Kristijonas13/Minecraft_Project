@@ -39,8 +39,14 @@ def update_player_info_table(essentials_path, cursor, cursor2):
         update_main_quests_completed(playerID_list, cursor)
         playerID_list = []
     else: logging.info('main_quests_completed does not need to be udpated.')
-    
 
+    playerID_list = check_side_quests_completed(cursor, cursor2)
+    if playerID_list:
+        update_main_quests_completed(playerID_list, cursor)
+        playerID_list = []
+    else: logging.info('main_quests_completed does not need to be udpated.')
+    
+    
 
 #checks to see if the players username has changed 
 #returns nested list of playerID's & username for players whose username has changed
@@ -163,7 +169,7 @@ def check_number_of_deaths(cursor, cursor2):
     
     try:
 
-        logging.info("Checking to see if the number of times players have died has changed.")
+        logging.info("Checking if the number of times players have died has changed.")
         deaths_list = []
 
         sqlite_deaths_pi_query = 'select playerID, number_of_deaths from player_info;'
@@ -205,7 +211,7 @@ def update_number_of_deaths(deaths_list, cursor):
 #returns nested list of playerID's and main quests completed
 def check_main_quests_completed(cursor, cursor2):
     try: 
-        logging.info("Checking to if the number of main quests completed has changed for any players.")
+        logging.info("Checking if the number of main quests completed has changed for any players.")
         main_quests_list = []
 
         sqlite_main_quests_pi_query = 'select playerID, main_quests_completed from player_info;'
@@ -244,16 +250,52 @@ def update_main_quests_completed(main_quests_list, cursor):
     except sqlite3.Error as error: 
         logging.error("Failed to update main_quests_completed in player_info table: %s", error)
 
+
+
+#check if the player has completed more side quests
+#returns nested list of playerID's and side quests completed
+def check_side_quests_completed(cursor, cursor2):
+    try: 
+        logging.info("Checking if the number of side quests completed has changed for any players.")
+        side_quests_list = []
+
+        sqlite_side_quests_pi_query = 'select playerID, side_quests_completed from player_info;'
+        cursor.execute(sqlite_side_quests_pi_query)
+        pi_side_quests_list = cursor.fetchall()
+
+        sqlite_side_quests_bq_query = "select playerID, count from betonquest_points where category = 'stats-side_stats.side_quests_completed';"
+        cursor2.execute(sqlite_side_quests_bq_query)
+        bq_side_quests_list = cursor2.fetchall()
+
+        for pi_side_quests in pi_side_quests_list: 
+            for bq_side_quests in bq_side_quests_list:
+                if pi_side_quests[0] == bq_side_quests[0]:
+                    if pi_side_quests[1] != bq_side_quests[1]:
+                        side_quests_list.append([pi_side_quests[0], bq_side_quests[1], pi_side_quests[1]])
+                        logging.info("Number of side quests completed for playerID: %s needs to be updated.", pi_side_quests[0])
+
+        return side_quests_list
+
+
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving playerID & side_quests_completed: %s", error)
+
+
+#update how many side quests the player has completed   
+def update_side_quests_completed(side_quests_list, cursor):
+
+    try: 
+        for side_quests in side_quests_list:
+        
+            player_info_update_query = "update player_info set side_quests_completed = '" + str(side_quests[1]) + "' where playerID = '" + str(side_quests[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated side_quests_completed for playerID: %s
+                                New side_quests_completed: %s
+                                Old side_quests_completed: %s ''', str(side_quests[0]), str(side_quests[1]), str(side_quests[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update side_quests_completed in player_info table: %s", error)
+
 '''
-def check_side_quests_completed():
-    #check if the player has completed more side quests
-    #returns true/false
-
-def update_side_quests_completed():
-    #update how many side quests the player has completed
-    #returns true/false if the update was successful or not
-
-
 def check_money_balance():
     #check if the player has lost/earned more money
     #returns true/false
