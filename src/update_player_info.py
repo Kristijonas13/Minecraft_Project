@@ -8,41 +8,52 @@ import sqlite3
 import os
 import logging 
 import json
-from datetime import timedelta
+from datetime import timedelta, datetime
+import yaml
 
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 
 #main function for updating player_info table
 #contains helper functions found in this file
 def update_player_info_table(essentials_path, cursor, cursor2):
+    check_last_login(essentials_path, cursor)
     
     playerID_list = []
-    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed', 'playtime']
+    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed', 'playtime', 'last_login']
 
-    function_list = [check_user_name(essentials_path, cursor), 
+    check_function_list = [check_user_name(essentials_path, cursor), 
                     check_user_race(cursor, cursor2), 
                     check_number_of_deaths(cursor, cursor2), 
                     check_main_quests_completed(cursor, cursor2),
                     check_side_quests_completed(cursor, cursor2),
                     check_legendary_beasts_killed(cursor, cursor2),
-                    check_playtime(cursor, cursor2)]
+                    check_playtime(cursor, cursor2),
+                    check_last_login(essentials_path, cursor)]
+
     count=0
-    for f in function_list:
+    for f in check_function_list:
         playerID_list = f
         if playerID_list:
-            if count == 0: update_user_name(playerID_list, cursor)
-            elif count == 1: update_user_race(playerID_list,cursor)
-            elif count == 2: update_number_of_deaths(playerID_list, cursor)
-            elif count == 3: update_main_quests_completed(playerID_list, cursor)
-            elif count == 4: update_side_quests_completed(playerID_list, cursor)
-            elif count == 5: update_legendary_beasts_killed(playerID_list, cursor)
-            elif count == 6: update_playtime(playerID_list, cursor)
-            playerID_list = []
-        
+            update_values(playerID_list, column_list[count], cursor)
         else: logging.info ('No new updates to %s', column_list[count])
         count= count + 1
 
-        
+
+#updates the player_info table in the test_db based on the playerID and column parameters
+def update_values(playerID_list, column, cursor): 
+
+    try: 
+        for playerID in playerID_list:
+            player_info_update_query = "update player_info set " + column + " = '" + str(playerID[1]) + "' where playerID = '" + str(playerID[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated %s of playerID: %s
+                                New %s: %s
+                                Old %s: %s ''', str(column), str(playerID[0]), str(column), str(playerID[1]), str(column), str(playerID[2]))
+
+    except sqlite3.Error as error: 
+        logging.error("Failed to update %s in player_info table: %s",column, error)
+
+
 
 #checks to see if the players username has changed 
 #returns nested list of playerID's & username for players whose username has changed
@@ -74,19 +85,6 @@ def check_user_name(essentials_path, cursor):
     except sqlite3.Error as error:
         logging.error("Select statement failed: %s", error)
                     
-
-#update the username for players
-def update_user_name(new_username_list, cursor):
-    try: 
-        for new_username in new_username_list:
-            player_info_update_query = "update player_info set user_name = '" + str(new_username[1]) + "' where playerID = '" + str(new_username[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated Username of playerID: %s
-                                New Username: %s
-                                Old Username: %s ''', str(new_username[0]), str(new_username[1]), str(new_username[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update user_name in player_info table: %s", error)
-    
 
 
 #check if the player has chosen a race yet
@@ -143,29 +141,12 @@ def check_user_race(cursor, cursor2):
         logging.error("Select statement failed: %s", error)
 
 
-#update the race of the players
-def update_user_race(new_race_list, cursor):
-
-    try: 
-        
-        for new_race in new_race_list:
-        
-            player_info_update_query = "update player_info set user_race = '" + str(new_race[1]) + "' where playerID = '" + str(new_race[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated User_race of playerID: %s
-                                New User_race: %s
-                                Old User_race: %s ''', str(new_race[0]), str(new_race[1]), str(new_race[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update user_race in player_info table: %s", error)
-
-
 
 #check if the number of times players have died has increased
 #returns nested list of playerID's and number of deaths
 def check_number_of_deaths(cursor, cursor2):
     
     try:
-
         logging.info("Checking if the number of times players have died has changed.")
         deaths_list = []
 
@@ -190,24 +171,11 @@ def check_number_of_deaths(cursor, cursor2):
         logging.error("Error retrieving playerID & number_of_deaths: %s", error)
 
 
-#update how many times the player has died
-def update_number_of_deaths(deaths_list, cursor):
-    try: 
-        for deaths in deaths_list:
-        
-            player_info_update_query = "update player_info set number_of_deaths = '" + str(deaths[1]) + "' where playerID = '" + str(deaths[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated number_of_deaths for playerID: %s
-                                New number_of_deaths: %s
-                                Old number_of_deaths: %s ''', str(deaths[0]), str(deaths[1]), str(deaths[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update number_of_deaths in player_info table: %s", error)
    
-
-
 #check if the player has completed more main quests
 #returns nested list of playerID's and main quests completed
 def check_main_quests_completed(cursor, cursor2):
+
     try: 
         logging.info("Checking if the number of main quests completed has changed for any players.")
         main_quests_list = []
@@ -229,24 +197,8 @@ def check_main_quests_completed(cursor, cursor2):
 
         return main_quests_list
 
-
     except sqlite3.Error as error: 
         logging.error("Error retrieving playerID & main_quests_completed: %s", error)
-
-
-#update how many main quests the player has completed   
-def update_main_quests_completed(main_quests_list, cursor):
-
-    try: 
-        for main_quests in main_quests_list:
-        
-            player_info_update_query = "update player_info set main_quests_completed = '" + str(main_quests[1]) + "' where playerID = '" + str(main_quests[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated main_quests_completed for playerID: %s
-                                New main_quests_completed: %s
-                                Old main_quests_completed: %s ''', str(main_quests[0]), str(main_quests[1]), str(main_quests[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update main_quests_completed in player_info table: %s", error)
 
 
 
@@ -275,24 +227,9 @@ def check_side_quests_completed(cursor, cursor2):
 
         return side_quests_list
 
-
     except sqlite3.Error as error: 
         logging.error("Error retrieving playerID & side_quests_completed: %s", error)
 
-
-#update how many side quests the player has completed   
-def update_side_quests_completed(side_quests_list, cursor):
-
-    try: 
-        for side_quests in side_quests_list:
-        
-            player_info_update_query = "update player_info set side_quests_completed = '" + str(side_quests[1]) + "' where playerID = '" + str(side_quests[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated side_quests_completed for playerID: %s
-                                New side_quests_completed: %s
-                                Old side_quests_completed: %s ''', str(side_quests[0]), str(side_quests[1]), str(side_quests[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update side_quests_completed in player_info table: %s", error)
 
 
 def check_legendary_beasts_killed(cursor, cursor2):
@@ -318,42 +255,14 @@ def check_legendary_beasts_killed(cursor, cursor2):
 
         return legendary_beasts_list
 
-
     except sqlite3.Error as error: 
         logging.error("Error retrieving playerID & legendary_beasts_killed: %s", error)
 
-
-#update how many legendary beasts the player has killed
-def update_legendary_beasts_killed(legendary_beasts_list, cursor):
-
-    try: 
-        for legendary_beasts in legendary_beasts_list:
-        
-            player_info_update_query = "update player_info set legendary_beasts_killed = '" + str(legendary_beasts[1]) + "' where playerID = '" + str(legendary_beasts[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated legendary_beasts_killed for playerID: %s
-                                New legendary_beasts_killed: %s
-                                Old legendary_beasts_killed: %s ''', str(legendary_beasts[0]), str(legendary_beasts[1]), str(legendary_beasts[2]))
-    except sqlite3.Error as error: 
-        logging.error("Failed to update legendary_beasts_killed in player_info table: %s", error)
-
-
-
-'''
-def check_money_balance():
-    #check if the player has lost/earned more money
-    #returns true/false
-
-def update_money_balance():
-    #update the money balance of the player
-    #returns true/false if the update was successful or not
-'''
 
 
 def check_playtime(cursor, cursor2):
     
     try: 
-
         logging.info("Checking for updates to: PLAYTIME")
         new_playtime_list = []
         update_playtime_list = []
@@ -391,48 +300,67 @@ def check_playtime(cursor, cursor2):
                         logging.info("The PLAYTIME for playerID: %s needs to be updated.", pi_playtime[0])
 
         return update_playtime_list
+
     except sqlite3.Error as error: 
         logging.error("Error retrieving PLAYERID & PLAYTIME: %s", error)
 
 
-def update_playtime(update_playtime_list, cursor):
 
-    try: 
-        for update_playtime in update_playtime_list:
-        
-            player_info_update_query = "update player_info set playtime = '" + str(update_playtime[1]) + "' where playerID = '" + str(update_playtime[0]) + "';"
-            cursor.execute(player_info_update_query)
-            logging.info('''Updated playtime for playerID: %s
-                                New playtime: %s
-                                Old playtime %s ''', str(update_playtime[0]), str(update_playtime[1]), str(update_playtime[2]))
+
+def check_last_login(essentials_path, cursor):
+    try:
+        os.chdir(essentials_path)
+
+        new_login_list = []
+        playerID_list = []
+
+        for filename in os.listdir(essentials_path):
+            f= open(filename, 'r')
+
+            essentials_list = yaml.load(f, Loader=yaml.FullLoader)
+
+            unix_time = essentials_list["timestamps"]["login"]
+            new_login_list.append([str(filename)[:-4], str(datetime.fromtimestamp(float(unix_time)/1000))])
+            
+    
+        sqlite_pi_login_query = 'select playerID, last_login from player_info;'
+        cursor.execute(sqlite_pi_login_query)
+        pi_login_list = cursor.fetchall()
+
+        for pi_login in pi_login_list: 
+            for new_login in new_login_list:
+                if pi_login[0] == new_login[0]:
+                    if pi_login[1] != new_login[1]:
+                        playerID_list.append([pi_login[0], new_login[1], pi_login[1]])
+                        logging.info("The LAST_LOGIN for playerID: %s needs to be updated.", pi_login[0])
+
+        return playerID_list 
+
     except sqlite3.Error as error: 
-        logging.error("Failed to update PLAYTIME in player_info table: %s", error)
+        logging.error("Error retrieving PLAYERID & LAST_LOGIN: %s", error)
+
+
+
+
+
 
 
 '''
-def check_last_login():
-    #check if the last time the player has logged in has changed
-    #returns true/false
-
-def update_last_login():
-    #update the last time the player logged in 
-    #returns true/false if the update was successful or not
-
-
 def check_player_level():
     #check if the player's level has increased
     #returns true/false
 
-def update_player_level():
-    #update the level of the player
-    #returns true/false if the update was successful or not
 
 
 def check_player_exp():
     #check if the player's exp has changed
     #returns true/false
 
-def update_player_exp():
-    #update the players exp
-    #returns true/false if the update was successful or not
+
+
+def check_money_balance():
+    #check if the player has lost/earned more money
+    #returns true/false
 '''
+
+
