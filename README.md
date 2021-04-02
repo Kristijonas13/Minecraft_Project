@@ -6,4 +6,4 @@ A project that integrates with my minecraft RPG server and stores and displays p
 #Project Last Modified Date: 4/02/2021
 
 #Date README.md Created: 3/14/2021
-#Last Modified: 4/01/2021
+#Last Modified: 4/02/2021

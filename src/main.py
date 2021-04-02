@@ -8,7 +8,7 @@
 import requests 
 import sqlite3
 import time 
-from new_player import initialize_new_players, check_for_new_players
+from new_player import insert_new_players
 import logging 
 from update_player_info import update_player_info_table
 
@@ -35,10 +35,7 @@ def main():
         logging.info("Successfully Connected to SQLite database: " + database2)
 
         #check for new players; if new players exist, initialize them into the test_db
-        new_playerID_list = check_for_new_players(essentials_path, cursor)
-        if new_playerID_list: 
-            initialize_new_players(essentials_path, cursor, new_playerID_list, beast_name_list)
-        else: logging.info('No new users found in directory: ' + essentials_path)
+        insert_new_players(essentials_path, cursor, beast_name_list)
 
         #update the player_info table
         update_player_info_table(essentials_path, cursor, cursor2)

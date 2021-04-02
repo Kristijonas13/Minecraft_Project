@@ -1,6 +1,6 @@
 #Creator: Kristijonas Bileisis
 #Date Created: 3/12/2021
-#Last Modified: 4/01/2021
+#Last Modified: 4/02/2021
 #Description: Python file containing functions that deal with inserting new players into the database. 
 
 from datetime import datetime
@@ -10,6 +10,15 @@ import yaml
 import logging 
 
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
+
+def insert_new_players(essentials_path, cursor, beast_name_list):
+
+    new_playerID_list = check_for_new_players(essentials_path, cursor)
+    if new_playerID_list: 
+        initialize_new_players(essentials_path, cursor, new_playerID_list, beast_name_list)
+    else: logging.info('No new users found.')
+
+
 
 def check_for_new_players(essentials_path, cursor):
 
@@ -54,11 +63,14 @@ def initialize_new_players(essentials_path, cursor, playerID_list, beast_name_li
             cursor.execute(legendary_beasts_killed_insert_query, legendary_beasts_tuple)
         logging.info('Initialized legendary_beasts_killed database for playerID: %s', playerID)   
 
+
+
 def get_date_joined(player_path):
 
     unix_created_time = os.path.getctime(player_path)
     date_time = datetime.fromtimestamp(unix_created_time)
     return date_time    
+
 
 
 def get_user_name(player_path):
