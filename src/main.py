@@ -14,8 +14,10 @@ from update_player_info import update_player_info_table
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
-database = r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db"
-database2 = r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db" 
+databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
+
+sqliteConnection = ['','']
+cursor = ['','']
 
 #for testing purposes
 beast_name_list= ['Big_Snow_Bear','Big_Sand_Cat','Big_Bunny']
@@ -24,41 +26,39 @@ beast_name_list= ['Big_Snow_Bear','Big_Sand_Cat','Big_Bunny']
 def main():
   
     try:
-        #connect to the test_db
-        sqliteConnection = sqlite3.connect(database)
-        cursor = sqliteConnection.cursor()
-        logging.info("Successfully Connected to Sqlite Database: " + database)
-
-        #connect to the betonquest_db
-        sqliteConnection2 = sqlite3.connect(database2)
-        cursor2 = sqliteConnection2.cursor()
-        logging.info("Successfully Connected to SQLite database: " + database2)
+        count = 0
+        for db in databases:
+            sqliteConnection[count] = sqlite3.connect(db)
+            cursor[count] = sqliteConnection[count].cursor()
+            logging.info("Successfully Connected to SQLite db: " + db)
+            count = count + 1
 
         #check for new players; if new players exist, insert them into the test_db
-        insert_new_players(essentials_path, cursor, beast_name_list)
+        insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
-        update_player_info_table(essentials_path, cursor, cursor2)
+        update_player_info_table(essentials_path, cursor[0], cursor[1])
 
-        
         #close the cursors
-        cursor.close()
-        cursor2.close()
+        cursor[0].close()
+        cursor[1].close()
         
         #commit data to the database
-        sqliteConnection.commit()
+        sqliteConnection[0].commit()
         logging.info("Commited all changes to the test_db database.")
-
+        
     except sqlite3.Error as error:
         print("Error:", error)
         logging.error("Error: %s", error)
+
     finally:
-        if sqliteConnection:
-            sqliteConnection.close()
-            logging.info("Shutting down SQLITE connection to: " + database)
-        if sqliteConnection2:
-            sqliteConnection2.close()
-            logging.info("Shutting down SQLITE connection to: " + database2)
+        for conn in sqliteConnection:
+            if conn:
+                count = count - 1
+                conn.close()
+                logging.info("Shutting down SQLITE connection to: " + databases[count])
+
+
 
 if __name__ == "__main__":
     co = 1 
