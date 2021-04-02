@@ -232,6 +232,8 @@ def check_side_quests_completed(cursor, cursor2):
 
 
 
+#check if the player has killed more legendary beasts
+#returns nested list of playerID's and legendary beasts killed
 def check_legendary_beasts_killed(cursor, cursor2):
 
     try: 
@@ -259,20 +261,17 @@ def check_legendary_beasts_killed(cursor, cursor2):
         logging.error("Error retrieving playerID & legendary_beasts_killed: %s", error)
 
 
-
+#check if the players' playtimes have increased
+#returns nested list of playerID's and their playtime
 def check_playtime(cursor, cursor2):
     
     try: 
         logging.info("Checking for updates to: PLAYTIME")
         new_playtime_list = []
         update_playtime_list = []
-        # where to look for stats files
         statsDir = 'C:/Users/Kristijonas/Desktop/Spigot/World/Stats'
-        # where to save the results
-        # total in secconds: 1 minecraft min = 0.83 irl secconds
         total = 0.000
 
-        # change to the stats dir
         os.chdir(statsDir)
 
         for filename in os.listdir(statsDir):
@@ -283,10 +282,6 @@ def check_playtime(cursor, cursor2):
             # total/20/60 = irl mins
             total = ((total/20)/60)
             new_playtime_list.append([str(filename)[:-5],str(timedelta(minutes=total))[:-3]])
-
-            # print('the total is: %d days' % (total) )
-            #outputFile = open("playtimeCounter.txt", "w")
-            #outputFile.write(str(total))
 
         sqlite_pi_playtime_query = 'select playerID, playtime from player_info;'
         cursor.execute(sqlite_pi_playtime_query)
@@ -306,7 +301,8 @@ def check_playtime(cursor, cursor2):
 
 
 
-
+#check if the player has logged in since last check
+#returns nested list of playerID's and their last login time if its new
 def check_last_login(essentials_path, cursor):
     try:
         os.chdir(essentials_path)
