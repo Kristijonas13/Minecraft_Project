@@ -1,12 +1,14 @@
-#Creator: Kristijonas Bileisis
-#Date Created: 3/14/2021
-#Last Modified: 4/02/2021
+#Author: Kristijonas Bileisis
+#Date Created: 03/14/2021
+#Last Modified: 04/02/2021
 #Description: Python file containing functions that deal with updating data in the player_info table. 
 
 from new_player import get_user_name
 import sqlite3
 import os
 import logging 
+import json
+from datetime import timedelta
 
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 
@@ -15,23 +17,37 @@ logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:
 def update_player_info_table(essentials_path, cursor, cursor2):
     
     playerID_list = []
+<<<<<<< HEAD
     column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed']
+=======
+    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed', 'playtime']
+>>>>>>> add_update_player_info
 
     function_list = [check_user_name(essentials_path, cursor), 
                     check_user_race(cursor, cursor2), 
                     check_number_of_deaths(cursor, cursor2), 
                     check_main_quests_completed(cursor, cursor2),
+<<<<<<< HEAD
                     check_side_quests_completed(cursor, cursor2)]
     count=0
     for f in function_list:
         playerID_list = f
         print(playerID_list)
+=======
+                    check_side_quests_completed(cursor, cursor2),
+                    check_legendary_beasts_killed(cursor, cursor2),
+                    check_playtime(cursor, cursor2)]
+    count=0
+    for f in function_list:
+        playerID_list = f
+>>>>>>> add_update_player_info
         if playerID_list:
             if count == 0: update_user_name(playerID_list, cursor)
             elif count == 1: update_user_race(playerID_list,cursor)
             elif count == 2: update_number_of_deaths(playerID_list, cursor)
             elif count == 3: update_main_quests_completed(playerID_list, cursor)
             elif count == 4: update_side_quests_completed(playerID_list, cursor)
+<<<<<<< HEAD
             playerID_list = []
         
         else: logging.info ('No new changes to column: %s', column_list[count])
@@ -68,6 +84,16 @@ def update_player_info_table(essentials_path, cursor, cursor2):
     else: logging.info('side_quests_completed does not need to be udpated.')
     
     '''  
+=======
+            elif count == 5: update_legendary_beasts_killed(playerID_list, cursor)
+            elif count == 6: update_playtime(playerID_list, cursor)
+            playerID_list = []
+        
+        else: logging.info ('No new updates to %s', column_list[count])
+        count= count + 1
+
+        
+>>>>>>> add_update_player_info
 
 #checks to see if the players username has changed 
 #returns nested list of playerID's & username for players whose username has changed
@@ -99,7 +125,6 @@ def check_user_name(essentials_path, cursor):
     except sqlite3.Error as error:
         logging.error("Select statement failed: %s", error)
                     
-    
 
 #update the username for players
 def update_user_name(new_username_list, cursor):
@@ -185,6 +210,7 @@ def update_user_race(new_race_list, cursor):
         logging.error("Failed to update user_race in player_info table: %s", error)
 
 
+
 #check if the number of times players have died has increased
 #returns nested list of playerID's and number of deaths
 def check_number_of_deaths(cursor, cursor2):
@@ -213,6 +239,7 @@ def check_number_of_deaths(cursor, cursor2):
 
     except sqlite3.Error as error: 
         logging.error("Error retrieving playerID & number_of_deaths: %s", error)
+
 
 #update how many times the player has died
 def update_number_of_deaths(deaths_list, cursor):
@@ -277,6 +304,7 @@ def update_main_quests_completed(main_quests_list, cursor):
 #check if the player has completed more side quests
 #returns nested list of playerID's and side quests completed
 def check_side_quests_completed(cursor, cursor2):
+
     try: 
         logging.info("Checking if the number of side quests completed has changed for any players.")
         side_quests_list = []
@@ -317,6 +345,51 @@ def update_side_quests_completed(side_quests_list, cursor):
     except sqlite3.Error as error: 
         logging.error("Failed to update side_quests_completed in player_info table: %s", error)
 
+
+def check_legendary_beasts_killed(cursor, cursor2):
+
+    try: 
+        logging.info("Checking if the number of legendary beasts killed has changed for any players.")
+        legendary_beasts_list = []
+
+        sqlite_legendary_beasts_pi_query = 'select playerID, legendary_beasts_killed from player_info;'
+        cursor.execute(sqlite_legendary_beasts_pi_query)
+        pi_legendary_beasts_list = cursor.fetchall()
+
+        sqlite_legendary_beasts_bq_query = "select playerID, count from betonquest_points where category = 'stats-main_stats.legendary_beasts_killed';"
+        cursor2.execute(sqlite_legendary_beasts_bq_query)
+        bq_legendary_beasts_list = cursor2.fetchall()
+
+        for pi_legendary_beasts in pi_legendary_beasts_list: 
+            for bq_legendary_beasts in bq_legendary_beasts_list:
+                if pi_legendary_beasts[0] == bq_legendary_beasts[0]:
+                    if pi_legendary_beasts[1] != bq_legendary_beasts[1]:
+                        legendary_beasts_list.append([pi_legendary_beasts[0], bq_legendary_beasts[1], pi_legendary_beasts[1]])
+                        logging.info("Number of legendary beasts killed for playerID: %s needs to be updated.", pi_legendary_beasts[0])
+
+        return legendary_beasts_list
+
+
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving playerID & legendary_beasts_killed: %s", error)
+
+
+#update how many legendary beasts the player has killed
+def update_legendary_beasts_killed(legendary_beasts_list, cursor):
+
+    try: 
+        for legendary_beasts in legendary_beasts_list:
+        
+            player_info_update_query = "update player_info set legendary_beasts_killed = '" + str(legendary_beasts[1]) + "' where playerID = '" + str(legendary_beasts[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated legendary_beasts_killed for playerID: %s
+                                New legendary_beasts_killed: %s
+                                Old legendary_beasts_killed: %s ''', str(legendary_beasts[0]), str(legendary_beasts[1]), str(legendary_beasts[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update legendary_beasts_killed in player_info table: %s", error)
+
+
+
 '''
 def check_money_balance():
     #check if the player has lost/earned more money
@@ -325,26 +398,69 @@ def check_money_balance():
 def update_money_balance():
     #update the money balance of the player
     #returns true/false if the update was successful or not
+'''
 
 
-def check_legendary_beasts_killed():
-    #check if the number of legendary beasts the player has killed has increased
-    #returns true/false
+def check_playtime(cursor, cursor2):
+    
+    try: 
 
-def update_legendary_beasts_killed():
-    #update the number of legendary beasts the player has killed
-    #returns true/false if the update was successful or not
+        logging.info("Checking for updates to: PLAYTIME")
+        new_playtime_list = []
+        update_playtime_list = []
+        # where to look for stats files
+        statsDir = 'C:/Users/Kristijonas/Desktop/Spigot/World/Stats'
+        # where to save the results
+        # total in secconds: 1 minecraft min = 0.83 irl secconds
+        total = 0.000
+
+        # change to the stats dir
+        os.chdir(statsDir)
+
+        for filename in os.listdir(statsDir):
+            f = open(filename,'r')
+            data = json.load(f)
+            total += data['stats']['minecraft:custom']['minecraft:play_one_minute']
+            # divide into irl secconds then convert to days. 
+            # total/20/60 = irl mins
+            total = ((total/20)/60)
+            new_playtime_list.append([str(filename)[:-5],str(timedelta(minutes=total))[:-3]])
+
+            # print('the total is: %d days' % (total) )
+            #outputFile = open("playtimeCounter.txt", "w")
+            #outputFile.write(str(total))
+
+        sqlite_pi_playtime_query = 'select playerID, playtime from player_info;'
+        cursor.execute(sqlite_pi_playtime_query)
+        pi_playtime_list = cursor.fetchall()
+
+        for pi_playtime in pi_playtime_list: 
+            for new_playtime in new_playtime_list:
+                if pi_playtime[0] == new_playtime[0]:
+                    if pi_playtime[1] != new_playtime[1]:
+                        update_playtime_list.append([pi_playtime[0], new_playtime[1], pi_playtime[1]])
+                        logging.info("The PLAYTIME for playerID: %s needs to be updated.", pi_playtime[0])
+
+        return update_playtime_list
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving PLAYERID & PLAYTIME: %s", error)
 
 
-def check_playtime():
-    #check if the playtime for the player has increased
-    #returns true/false
+def update_playtime(update_playtime_list, cursor):
 
-def update_playtime():
-    #update the playtime fo the player
-    #returns true/false if the update was successful or not
+    try: 
+        for update_playtime in update_playtime_list:
+        
+            player_info_update_query = "update player_info set playtime = '" + str(update_playtime[1]) + "' where playerID = '" + str(update_playtime[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated playtime for playerID: %s
+                                New playtime: %s
+                                Old playtime %s ''', str(update_playtime[0]), str(update_playtime[1]), str(update_playtime[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update PLAYTIME in player_info table: %s", error)
 
 
+'''
 def check_last_login():
     #check if the last time the player has logged in has changed
     #returns true/false

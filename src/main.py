@@ -1,6 +1,6 @@
-#Creator: Kristijonas Bileisis
-#Date Created: 3/12/2021
-#Last Modified: 4/16/2021
+#Author: Kristijonas Bileisis
+#Date Created: 03/12/2021
+#Last Modified: 04/02/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
@@ -34,7 +34,7 @@ def main():
         cursor2 = sqliteConnection2.cursor()
         logging.info("Successfully Connected to SQLite database: " + database2)
 
-        #check for new players; if new players exist, initialize them into the test_db
+        #check for new players; if new players exist, insert them into the test_db
         insert_new_players(essentials_path, cursor, beast_name_list)
 
         #update the player_info table
