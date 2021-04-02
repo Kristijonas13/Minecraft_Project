@@ -15,13 +15,14 @@ logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:
 def update_player_info_table(essentials_path, cursor, cursor2):
     
     playerID_list = []
-    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed']
+    column_list= ['user_name','user_race','number_of_deaths','main_quests_completed', 'side_quests_completed', 'legendary_beasts_killed']
 
     function_list = [check_user_name(essentials_path, cursor), 
                     check_user_race(cursor, cursor2), 
                     check_number_of_deaths(cursor, cursor2), 
                     check_main_quests_completed(cursor, cursor2),
-                    check_side_quests_completed(cursor, cursor2)]
+                    check_side_quests_completed(cursor, cursor2),
+                    check_legendary_beasts_killed(cursor, cursor2)]
     count=0
     for f in function_list:
         playerID_list = f
@@ -31,6 +32,7 @@ def update_player_info_table(essentials_path, cursor, cursor2):
             elif count == 2: update_number_of_deaths(playerID_list, cursor)
             elif count == 3: update_main_quests_completed(playerID_list, cursor)
             elif count == 4: update_side_quests_completed(playerID_list, cursor)
+            elif count == 5: update_legendary_beasts_killed(playerID_list, cursor)
             playerID_list = []
         
         else: logging.info ('No new changes to column: %s', column_list[count])
@@ -68,7 +70,6 @@ def check_user_name(essentials_path, cursor):
     except sqlite3.Error as error:
         logging.error("Select statement failed: %s", error)
                     
-    
 
 #update the username for players
 def update_user_name(new_username_list, cursor):
@@ -154,6 +155,7 @@ def update_user_race(new_race_list, cursor):
         logging.error("Failed to update user_race in player_info table: %s", error)
 
 
+
 #check if the number of times players have died has increased
 #returns nested list of playerID's and number of deaths
 def check_number_of_deaths(cursor, cursor2):
@@ -182,6 +184,7 @@ def check_number_of_deaths(cursor, cursor2):
 
     except sqlite3.Error as error: 
         logging.error("Error retrieving playerID & number_of_deaths: %s", error)
+
 
 #update how many times the player has died
 def update_number_of_deaths(deaths_list, cursor):
@@ -286,6 +289,47 @@ def update_side_quests_completed(side_quests_list, cursor):
     except sqlite3.Error as error: 
         logging.error("Failed to update side_quests_completed in player_info table: %s", error)
 
+
+def check_legendary_beasts_killed(cursor, cursor2):
+    try: 
+        logging.info("Checking if the number of legendary beasts killed has changed for any players.")
+        legendary_beasts_list = []
+
+        sqlite_legendary_beasts_pi_query = 'select playerID, legendary_beasts_killed from player_info;'
+        cursor.execute(sqlite_legendary_beasts_pi_query)
+        pi_legendary_beasts_list = cursor.fetchall()
+
+        sqlite_legendary_beasts_bq_query = "select playerID, count from betonquest_points where category = 'stats-main_stats.legendary_beasts_killed';"
+        cursor2.execute(sqlite_legendary_beasts_bq_query)
+        bq_legendary_beasts_list = cursor2.fetchall()
+
+        for pi_legendary_beasts in pi_legendary_beasts_list: 
+            for bq_legendary_beasts in bq_legendary_beasts_list:
+                if pi_legendary_beasts[0] == bq_legendary_beasts[0]:
+                    if pi_legendary_beasts[1] != bq_legendary_beasts[1]:
+                        legendary_beasts_list.append([pi_legendary_beasts[0], bq_legendary_beasts[1], pi_legendary_beasts[1]])
+                        logging.info("Number of legendary beasts killed for playerID: %s needs to be updated.", pi_legendary_beasts[0])
+
+        return legendary_beasts_list
+
+
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving playerID & legendary_beasts_killed: %s", error)
+
+
+#update how many side quests the player has completed   
+def update_legendary_beasts_killed(legendary_beasts_list, cursor):
+
+    try: 
+        for legendary_beasts in legendary_beasts_list:
+        
+            player_info_update_query = "update player_info set legendary_beasts_killed = '" + str(legendary_beasts[1]) + "' where playerID = '" + str(legendary_beasts[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated legendary_beasts_killed for playerID: %s
+                                New legendary_beasts_killed: %s
+                                Old legendary_beasts_killed: %s ''', str(legendary_beasts[0]), str(legendary_beasts[1]), str(legendary_beasts[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update legendary_beasts_killed in player_info table: %s", error)
 '''
 def check_money_balance():
     #check if the player has lost/earned more money
@@ -294,16 +338,6 @@ def check_money_balance():
 def update_money_balance():
     #update the money balance of the player
     #returns true/false if the update was successful or not
-
-
-def check_legendary_beasts_killed():
-    #check if the number of legendary beasts the player has killed has increased
-    #returns true/false
-
-def update_legendary_beasts_killed():
-    #update the number of legendary beasts the player has killed
-    #returns true/false if the update was successful or not
-
 
 def check_playtime():
     #check if the playtime for the player has increased

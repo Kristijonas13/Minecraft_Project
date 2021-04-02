@@ -3985,3 +3985,146 @@ INFO:2021-04-02 12:24:06,224:No new changes to column: side_quests_completed
 INFO:2021-04-02 12:24:06,224:Commited all changes to the test_db database.
 INFO:2021-04-02 12:24:06,224:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
 INFO:2021-04-02 12:24:06,224:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:20:39,847:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:20:39,848:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:20:39,848:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:20:39,848:No new users found.
+INFO:2021-04-02 13:20:39,848:Checking for potential updates to usernames.
+INFO:2021-04-02 13:20:39,850:Checking for potential updates to the players race.
+INFO:2021-04-02 13:20:39,850:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:20:39,850:Number of deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b needs to be updated.
+INFO:2021-04-02 13:20:39,850:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:20:39,850:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:20:39,851:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:20:39,851:No new changes to column: user_name
+INFO:2021-04-02 13:20:39,851:No new changes to column: user_race
+INFO:2021-04-02 13:20:39,852:Updated number_of_deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+                                New number_of_deaths: 3
+                                Old number_of_deaths: 2 
+INFO:2021-04-02 13:20:39,852:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:20:39,852:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:20:39,852:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:20:39,852:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:22:31,161:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:22:31,161:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:22:31,161:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:22:31,162:No new users found.
+INFO:2021-04-02 13:22:31,162:Checking for potential updates to usernames.
+INFO:2021-04-02 13:22:31,163:Checking for potential updates to the players race.
+INFO:2021-04-02 13:22:31,164:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:22:31,164:Number of deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b needs to be updated.
+INFO:2021-04-02 13:22:31,164:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:22:31,164:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:22:31,164:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:22:31,164:No new changes to column: user_name
+INFO:2021-04-02 13:22:31,164:No new changes to column: user_race
+INFO:2021-04-02 13:22:31,165:Updated number_of_deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+                                New number_of_deaths: 3
+                                Old number_of_deaths: 2 
+INFO:2021-04-02 13:22:31,165:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:22:31,165:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:22:31,165:No new changes to column: legendary_beasts_killed
+INFO:2021-04-02 13:22:31,197:Commited all changes to the test_db database.
+INFO:2021-04-02 13:22:31,197:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:22:31,197:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:22:51,199:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:22:51,200:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:22:51,201:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:22:51,202:No new users found.
+INFO:2021-04-02 13:22:51,202:Checking for potential updates to usernames.
+INFO:2021-04-02 13:22:51,205:Checking for potential updates to the players race.
+INFO:2021-04-02 13:22:51,205:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:22:51,205:Number of deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b needs to be updated.
+INFO:2021-04-02 13:22:51,205:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:22:51,206:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:22:51,206:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:22:51,206:No new changes to column: user_name
+INFO:2021-04-02 13:22:51,206:No new changes to column: user_race
+INFO:2021-04-02 13:22:51,207:Updated number_of_deaths for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+                                New number_of_deaths: 2
+                                Old number_of_deaths: 3 
+INFO:2021-04-02 13:22:51,207:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:22:51,207:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:22:51,207:No new changes to column: legendary_beasts_killed
+INFO:2021-04-02 13:22:51,224:Commited all changes to the test_db database.
+INFO:2021-04-02 13:22:51,224:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:22:51,224:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:11,225:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:11,226:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:11,227:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:23:11,228:No new users found.
+INFO:2021-04-02 13:23:11,228:Checking for potential updates to usernames.
+INFO:2021-04-02 13:23:11,231:Checking for potential updates to the players race.
+INFO:2021-04-02 13:23:11,231:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:23:11,232:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:23:11,232:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:23:11,232:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:23:11,232:Number of legendary beasts killed for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b needs to be updated.
+INFO:2021-04-02 13:23:11,232:No new changes to column: user_name
+INFO:2021-04-02 13:23:11,232:No new changes to column: user_race
+INFO:2021-04-02 13:23:11,232:No new changes to column: number_of_deaths
+INFO:2021-04-02 13:23:11,232:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:23:11,232:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:23:11,233:Updated legendary_beasts_killed for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+                                New legendary_beasts_killed: 3
+                                Old legendary_beasts_killed: 0 
+INFO:2021-04-02 13:23:11,248:Commited all changes to the test_db database.
+INFO:2021-04-02 13:23:11,249:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:11,249:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:31,249:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:31,249:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:31,249:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:23:31,249:No new users found.
+INFO:2021-04-02 13:23:31,249:Checking for potential updates to usernames.
+INFO:2021-04-02 13:23:31,251:Checking for potential updates to the players race.
+INFO:2021-04-02 13:23:31,251:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:23:31,251:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:23:31,251:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:23:31,252:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:23:31,252:No new changes to column: user_name
+INFO:2021-04-02 13:23:31,252:No new changes to column: user_race
+INFO:2021-04-02 13:23:31,252:No new changes to column: number_of_deaths
+INFO:2021-04-02 13:23:31,252:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:23:31,252:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:23:31,252:No new changes to column: legendary_beasts_killed
+INFO:2021-04-02 13:23:31,252:Commited all changes to the test_db database.
+INFO:2021-04-02 13:23:31,252:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:31,252:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:51,253:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:51,253:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:23:51,253:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:23:51,253:No new users found.
+INFO:2021-04-02 13:23:51,253:Checking for potential updates to usernames.
+INFO:2021-04-02 13:23:51,255:Checking for potential updates to the players race.
+INFO:2021-04-02 13:23:51,255:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:23:51,255:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:23:51,255:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:23:51,256:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:23:51,256:No new changes to column: user_name
+INFO:2021-04-02 13:23:51,256:No new changes to column: user_race
+INFO:2021-04-02 13:23:51,256:No new changes to column: number_of_deaths
+INFO:2021-04-02 13:23:51,256:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:23:51,256:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:23:51,256:No new changes to column: legendary_beasts_killed
+INFO:2021-04-02 13:23:51,256:Commited all changes to the test_db database.
+INFO:2021-04-02 13:23:51,256:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:23:51,256:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:24:11,256:Successfully Connected to Sqlite Database: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:24:11,256:Successfully Connected to SQLite database: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-02 13:24:11,256:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-02 13:24:11,256:No new users found.
+INFO:2021-04-02 13:24:11,256:Checking for potential updates to usernames.
+INFO:2021-04-02 13:24:11,258:Checking for potential updates to the players race.
+INFO:2021-04-02 13:24:11,258:Checking if the number of times players have died has changed.
+INFO:2021-04-02 13:24:11,258:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-02 13:24:11,258:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-02 13:24:11,259:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-02 13:24:11,259:No new changes to column: user_name
+INFO:2021-04-02 13:24:11,259:No new changes to column: user_race
+INFO:2021-04-02 13:24:11,259:No new changes to column: number_of_deaths
+INFO:2021-04-02 13:24:11,259:No new changes to column: main_quests_completed
+INFO:2021-04-02 13:24:11,259:No new changes to column: side_quests_completed
+INFO:2021-04-02 13:24:11,259:No new changes to column: legendary_beasts_killed
+INFO:2021-04-02 13:24:11,259:Commited all changes to the test_db database.
+INFO:2021-04-02 13:24:11,259:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-02 13:24:11,259:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db

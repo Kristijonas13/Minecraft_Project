@@ -34,7 +34,7 @@ def main():
         cursor2 = sqliteConnection2.cursor()
         logging.info("Successfully Connected to SQLite database: " + database2)
 
-        #check for new players; if new players exist, initialize them into the test_db
+        #check for new players; if new players exist, insert them into the test_db
         insert_new_players(essentials_path, cursor, beast_name_list)
 
         #update the player_info table
