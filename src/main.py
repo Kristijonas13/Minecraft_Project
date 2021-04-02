@@ -14,7 +14,7 @@ from update_player_info import update_player_info_table
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
-database = r"D:\Users\Kristijonas\minecraft_code\database\test_db.db"
+database = r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db"
 database2 = r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db" 
 
 #for testing purposes

@@ -1,6 +1,6 @@
 #Creator: Kristijonas Bileisis
 #Date Created: 3/14/2021
-#Last Modified: 4/01/2021
+#Last Modified: 4/02/2021
 #Description: Python file containing functions that deal with updating data in the player_info table. 
 
 from new_player import get_user_name
@@ -33,6 +33,12 @@ def update_player_info_table(essentials_path, cursor, cursor2):
         update_number_of_deaths(playerID_list, cursor)
         playerID_list = []
     else: logging.info('number_of_deaths does not need to be udpated.')
+
+    playerID_list = check_main_quests_completed(cursor, cursor2)
+    if playerID_list:
+        update_main_quests_completed(playerID_list, cursor)
+        playerID_list = []
+    else: logging.info('main_quests_completed does not need to be udpated.')
     
 
 
@@ -195,16 +201,50 @@ def update_number_of_deaths(deaths_list, cursor):
    
 
 
+#check if the player has completed more main quests
+#returns nested list of playerID's and main quests completed
+def check_main_quests_completed(cursor, cursor2):
+    try: 
+        logging.info("Checking to if the number of main quests completed has changed for any players.")
+        main_quests_list = []
+
+        sqlite_main_quests_pi_query = 'select playerID, main_quests_completed from player_info;'
+        cursor.execute(sqlite_main_quests_pi_query)
+        pi_main_quests_list = cursor.fetchall()
+
+        sqlite_main_quests_bq_query = "select playerID, count from betonquest_points where category = 'stats-main_stats.main_quests_completed';"
+        cursor2.execute(sqlite_main_quests_bq_query)
+        bq_main_quests_list = cursor2.fetchall()
+
+        for pi_main_quests in pi_main_quests_list: 
+            for bq_main_quests in bq_main_quests_list:
+                if pi_main_quests[0] == bq_main_quests[0]:
+                    if pi_main_quests[1] != bq_main_quests[1]:
+                        main_quests_list.append([pi_main_quests[0], bq_main_quests[1], pi_main_quests[1]])
+                        logging.info("Number of main quests completed for playerID: %s needs to be updated.", pi_main_quests[0])
+
+        return main_quests_list
+
+
+    except sqlite3.Error as error: 
+        logging.error("Error retrieving playerID & main_quests_completed: %s", error)
+
+
+#update how many main quests the player has completed   
+def update_main_quests_completed(main_quests_list, cursor):
+
+    try: 
+        for main_quests in main_quests_list:
+        
+            player_info_update_query = "update player_info set main_quests_completed = '" + str(main_quests[1]) + "' where playerID = '" + str(main_quests[0]) + "';"
+            cursor.execute(player_info_update_query)
+            logging.info('''Updated main_quests_completed for playerID: %s
+                                New main_quests_completed: %s
+                                Old main_quests_completed: %s ''', str(main_quests[0]), str(main_quests[1]), str(main_quests[2]))
+    except sqlite3.Error as error: 
+        logging.error("Failed to update main_quests_completed in player_info table: %s", error)
+
 '''
-def check_main_quests_completed():
-    #check if the player has completed more main quests
-    #returns true/false
-
-def update_main_quests_completed():
-    #update how many main quests the player has completed
-    #returns true/false if the update was successful or not
-
-
 def check_side_quests_completed():
     #check if the player has completed more side quests
     #returns true/false
