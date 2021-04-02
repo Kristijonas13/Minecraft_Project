@@ -1,6 +1,6 @@
-#Creator: Kristijonas Bileisis
-#Date Created: 3/14/2021
-#Last Modified: 4/02/2021
+#Author: Kristijonas Bileisis
+#Date Created: 03/14/2021
+#Last Modified: 04/02/2021
 #Description: Python file containing functions that deal with updating data in the player_info table. 
 
 from new_player import get_user_name
@@ -25,7 +25,6 @@ def update_player_info_table(essentials_path, cursor, cursor2):
     count=0
     for f in function_list:
         playerID_list = f
-        print(playerID_list)
         if playerID_list:
             if count == 0: update_user_name(playerID_list, cursor)
             elif count == 1: update_user_race(playerID_list,cursor)
@@ -36,38 +35,8 @@ def update_player_info_table(essentials_path, cursor, cursor2):
         
         else: logging.info ('No new changes to column: %s', column_list[count])
         count= count + 1
-    '''
-    playerID_list = check_user_name(essentials_path, cursor)
-    if playerID_list:
-        update_user_name(playerID_list,cursor)
-        playerID_list = []
-    else: logging.info('No usernames needed to be updated.')
 
-    playerID_list = check_user_race(cursor, cursor2)
-    if playerID_list:
-        update_user_race(playerID_list, cursor)
-        playerID_list = []
-    else: logging.info('No user_race needed to be udpated.')
-
-    playerID_list = check_number_of_deaths(cursor, cursor2)
-    if playerID_list:
-        update_number_of_deaths(playerID_list, cursor)
-        playerID_list = []
-    else: logging.info('number_of_deaths does not need to be udpated.')
-
-    playerID_list = check_main_quests_completed(cursor, cursor2)
-    if playerID_list:
-        update_main_quests_completed(playerID_list, cursor)
-        playerID_list = []
-    else: logging.info('main_quests_completed does not need to be udpated.')
-
-    playerID_list = check_side_quests_completed(cursor, cursor2)
-    if playerID_list:
-        update_side_quests_completed(playerID_list, cursor)
-        playerID_list = []
-    else: logging.info('side_quests_completed does not need to be udpated.')
-    
-    '''  
+        
 
 #checks to see if the players username has changed 
 #returns nested list of playerID's & username for players whose username has changed
