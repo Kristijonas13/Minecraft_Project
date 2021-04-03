@@ -1,0 +1,11 @@
+##### general notes
+
+
+--- .py file for all tables 
+    * contains one main function to put into main.py 
+    * contains function for inserting new records into the tables
+    * contains function for deleting records from the tables 
+    * contains function for checking if updates need to be made
+    * contains function for updating the records in the tables
+    
+
