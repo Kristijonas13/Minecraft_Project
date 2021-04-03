@@ -10,7 +10,7 @@ import sqlite3
 import time 
 from new_player import insert_new_players
 import logging 
-from update_player_info import update_player_info_table
+from player_info import update_player_info_table
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
