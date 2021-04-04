@@ -1,10 +1,13 @@
 #Author: Kristijonas Bileisis
 #Date Created: 03/12/2021
-#Last Modified: 04/03/2021
+#Last Modified: 04/04/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
 
+
+
+#imports
 import requests 
 import sqlite3
 import time 
@@ -13,6 +16,9 @@ import logging
 from player_info import update_player_info_table
 from mob_info import mob_info
 
+
+
+#paths
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
@@ -20,10 +26,14 @@ mob_path= r"C:\Users\Kristijonas\Desktop\Spigot\plugins\MythicMobs\mobs"
 sqliteConnection = ['','']
 cursor = ['','']
 
+
+
 #for testing purposes
 beast_name_list= ['Big_Snow_Bear','Big_Sand_Cat','Big_Bunny']
 
 
+
+#main function
 def main():
   
     try:
