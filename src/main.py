@@ -15,6 +15,7 @@ from new_player import insert_new_players
 import logging 
 from player_info import update_player_info_table
 from mob_info import mob_info
+from mob_kills import mob_kills
 
 
 
@@ -45,14 +46,16 @@ def main():
             count = count + 1
 
         #check for new players; if new players exist, insert them into the test_db
-        insert_new_players(essentials_path, cursor[0], beast_name_list)
+        #insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
-        update_player_info_table(essentials_path, cursor[0], cursor[1])
+        #update_player_info_table(essentials_path, cursor[0], cursor[1])
 
         #manipulate the mob_info table
-        mob_info(mob_path,cursor[0])
+        #mob_info(mob_path,cursor[0])
 
+        #manipulate the mob_kills table
+        mob_kills(cursor[0], cursor[1])
         #close the cursors
         cursor[0].close()
         cursor[1].close()
