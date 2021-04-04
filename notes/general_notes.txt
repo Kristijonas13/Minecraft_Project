@@ -3,9 +3,20 @@
 
 --- .py file for all tables 
     * contains one main function to put into main.py 
+    * contains function for checking if updates, deletions, or inserts need to be made to the table
+        --- contains 3 helper functions for checking for deletions, inserts and updates
     * contains function for inserting new records into the tables
     * contains function for deleting records from the tables 
-    * contains function for checking if updates need to be made
     * contains function for updating the records in the tables
-    
+
+--- mob_info.py 
+    * check_mob_info()
+        ~ return nested list containing [[delete_data],[insert_data],[update_data]]
+            --- delete_data
+                [[mob_name]]
+            --- insert_data, update_data
+                * [[mob_name, filename]]
+            --- if one of those return an empty list, then the corresponding function will not run
+            
+
 
