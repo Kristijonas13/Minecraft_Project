@@ -1803,3 +1803,292 @@ INFO:2021-04-03 22:40:40,995:No updates to be made to mob_info
 INFO:2021-04-03 22:40:40,995:Commited all changes to the test_db database.
 INFO:2021-04-03 22:40:40,995:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
 INFO:2021-04-03 22:40:40,995:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:02:26,904:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:02:26,904:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:02:26,904:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:02:26,904:No new users found.
+INFO:2021-04-04 02:02:26,906:Checking for potential updates to usernames.
+INFO:2021-04-04 02:02:26,907:Checking for potential updates to the players race.
+INFO:2021-04-04 02:02:26,908:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:02:26,908:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:02:26,908:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:02:26,908:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:02:26,908:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:02:26,910:No new updates to user_name
+INFO:2021-04-04 02:02:26,910:No new updates to user_race
+INFO:2021-04-04 02:02:26,910:No new updates to number_of_deaths
+INFO:2021-04-04 02:02:26,910:No new updates to main_quests_completed
+INFO:2021-04-04 02:02:26,910:No new updates to side_quests_completed
+INFO:2021-04-04 02:02:26,910:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:02:26,910:No new updates to playtime
+INFO:2021-04-04 02:02:26,910:No new updates to last_login
+INFO:2021-04-04 02:02:26,910:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:02:26,918:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:02:26,926:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:02:26,933:No deletions to be made from mob_info
+INFO:2021-04-04 02:02:26,933:No inserts to be made into mob_info
+INFO:2021-04-04 02:02:26,933:No updates to be made to mob_info
+INFO:2021-04-04 02:02:26,933:Commited all changes to the test_db database.
+INFO:2021-04-04 02:02:26,933:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:02:26,933:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:02:52,053:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:02:52,054:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:02:52,054:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:02:52,054:No new users found.
+INFO:2021-04-04 02:02:52,056:Checking for potential updates to usernames.
+INFO:2021-04-04 02:02:52,057:Checking for potential updates to the players race.
+INFO:2021-04-04 02:02:52,057:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:02:52,058:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:02:52,058:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:02:52,058:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:02:52,058:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:02:52,060:No new updates to user_name
+INFO:2021-04-04 02:02:52,060:No new updates to user_race
+INFO:2021-04-04 02:02:52,060:No new updates to number_of_deaths
+INFO:2021-04-04 02:02:52,060:No new updates to main_quests_completed
+INFO:2021-04-04 02:02:52,060:No new updates to side_quests_completed
+INFO:2021-04-04 02:02:52,060:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:02:52,060:No new updates to playtime
+INFO:2021-04-04 02:02:52,060:No new updates to last_login
+INFO:2021-04-04 02:02:52,060:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:02:52,067:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:02:52,075:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:02:52,082:No deletions to be made from mob_info
+INFO:2021-04-04 02:02:52,082:No inserts to be made into mob_info
+INFO:2021-04-04 02:02:52,100:Commited all changes to the test_db database.
+INFO:2021-04-04 02:02:52,100:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:02:52,101:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:12,101:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:12,101:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:12,101:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:03:12,101:No new users found.
+INFO:2021-04-04 02:03:12,103:Checking for potential updates to usernames.
+INFO:2021-04-04 02:03:12,105:Checking for potential updates to the players race.
+INFO:2021-04-04 02:03:12,105:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:03:12,105:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:03:12,105:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:03:12,105:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:03:12,105:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:03:12,107:No new updates to user_name
+INFO:2021-04-04 02:03:12,107:No new updates to user_race
+INFO:2021-04-04 02:03:12,107:No new updates to number_of_deaths
+INFO:2021-04-04 02:03:12,107:No new updates to main_quests_completed
+INFO:2021-04-04 02:03:12,107:No new updates to side_quests_completed
+INFO:2021-04-04 02:03:12,107:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:03:12,107:No new updates to playtime
+INFO:2021-04-04 02:03:12,107:No new updates to last_login
+INFO:2021-04-04 02:03:12,108:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:03:12,115:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:03:12,122:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:03:12,129:No deletions to be made from mob_info
+INFO:2021-04-04 02:03:12,129:No inserts to be made into mob_info
+INFO:2021-04-04 02:03:12,129:No updates to be made to mob_info
+INFO:2021-04-04 02:03:12,129:Commited all changes to the test_db database.
+INFO:2021-04-04 02:03:12,129:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:12,129:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:32,129:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:32,129:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:32,129:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:03:32,129:No new users found.
+INFO:2021-04-04 02:03:32,131:Checking for potential updates to usernames.
+INFO:2021-04-04 02:03:32,132:Checking for potential updates to the players race.
+INFO:2021-04-04 02:03:32,133:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:03:32,133:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:03:32,133:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:03:32,133:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:03:32,133:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:03:32,135:No new updates to user_name
+INFO:2021-04-04 02:03:32,135:No new updates to user_race
+INFO:2021-04-04 02:03:32,135:No new updates to number_of_deaths
+INFO:2021-04-04 02:03:32,135:No new updates to main_quests_completed
+INFO:2021-04-04 02:03:32,135:No new updates to side_quests_completed
+INFO:2021-04-04 02:03:32,135:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:03:32,135:No new updates to playtime
+INFO:2021-04-04 02:03:32,135:No new updates to last_login
+INFO:2021-04-04 02:03:32,135:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:03:32,143:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:03:32,150:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:03:32,157:No deletions to be made from mob_info
+INFO:2021-04-04 02:03:32,157:No inserts to be made into mob_info
+INFO:2021-04-04 02:03:32,157:No updates to be made to mob_info
+INFO:2021-04-04 02:03:32,157:Commited all changes to the test_db database.
+INFO:2021-04-04 02:03:32,158:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:32,158:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:52,158:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:03:52,160:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:52,160:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:03:52,161:No new users found.
+INFO:2021-04-04 02:03:52,162:Checking for potential updates to usernames.
+INFO:2021-04-04 02:03:52,164:Checking for potential updates to the players race.
+INFO:2021-04-04 02:03:52,164:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:03:52,164:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:03:52,164:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:03:52,164:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:03:52,165:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:03:52,166:No new updates to user_name
+INFO:2021-04-04 02:03:52,166:No new updates to user_race
+INFO:2021-04-04 02:03:52,166:No new updates to number_of_deaths
+INFO:2021-04-04 02:03:52,166:No new updates to main_quests_completed
+INFO:2021-04-04 02:03:52,166:No new updates to side_quests_completed
+INFO:2021-04-04 02:03:52,166:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:03:52,166:No new updates to playtime
+INFO:2021-04-04 02:03:52,166:No new updates to last_login
+INFO:2021-04-04 02:03:52,166:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:03:52,174:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:03:52,181:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:03:52,187:No deletions to be made from mob_info
+INFO:2021-04-04 02:03:52,188:No inserts to be made into mob_info
+INFO:2021-04-04 02:03:52,188:No updates to be made to mob_info
+INFO:2021-04-04 02:03:52,188:Commited all changes to the test_db database.
+INFO:2021-04-04 02:03:52,188:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:03:52,188:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:12,189:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:12,190:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:12,191:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:04:12,192:No new users found.
+INFO:2021-04-04 02:04:12,195:Checking for potential updates to usernames.
+INFO:2021-04-04 02:04:12,196:Checking for potential updates to the players race.
+INFO:2021-04-04 02:04:12,197:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:04:12,197:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:04:12,197:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:04:12,197:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:04:12,197:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:04:12,199:No new updates to user_name
+INFO:2021-04-04 02:04:12,199:No new updates to user_race
+INFO:2021-04-04 02:04:12,199:No new updates to number_of_deaths
+INFO:2021-04-04 02:04:12,199:No new updates to main_quests_completed
+INFO:2021-04-04 02:04:12,199:No new updates to side_quests_completed
+INFO:2021-04-04 02:04:12,199:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:04:12,199:No new updates to playtime
+INFO:2021-04-04 02:04:12,199:No new updates to last_login
+INFO:2021-04-04 02:04:12,199:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:04:12,206:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:04:12,214:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:04:12,221:No deletions to be made from mob_info
+INFO:2021-04-04 02:04:12,221:No inserts to be made into mob_info
+INFO:2021-04-04 02:04:12,221:No updates to be made to mob_info
+INFO:2021-04-04 02:04:12,221:Commited all changes to the test_db database.
+INFO:2021-04-04 02:04:12,221:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:12,221:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:17,787:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:17,787:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:17,787:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:04:17,788:No new users found.
+INFO:2021-04-04 02:04:17,790:Checking for potential updates to usernames.
+INFO:2021-04-04 02:04:17,791:Checking for potential updates to the players race.
+INFO:2021-04-04 02:04:17,791:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:04:17,791:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:04:17,792:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:04:17,792:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:04:17,792:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:04:17,794:No new updates to user_name
+INFO:2021-04-04 02:04:17,794:No new updates to user_race
+INFO:2021-04-04 02:04:17,794:No new updates to number_of_deaths
+INFO:2021-04-04 02:04:17,794:No new updates to main_quests_completed
+INFO:2021-04-04 02:04:17,794:No new updates to side_quests_completed
+INFO:2021-04-04 02:04:17,794:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:04:17,794:No new updates to playtime
+INFO:2021-04-04 02:04:17,794:No new updates to last_login
+INFO:2021-04-04 02:04:17,794:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:04:17,802:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:04:17,809:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:04:17,818:No deletions to be made from mob_info
+INFO:2021-04-04 02:04:17,818:No inserts to be made into mob_info
+INFO:2021-04-04 02:04:17,818:No updates to be made to mob_info
+INFO:2021-04-04 02:04:17,818:Commited all changes to the test_db database.
+INFO:2021-04-04 02:04:17,818:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:17,818:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:37,818:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:37,818:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:37,818:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:04:37,818:No new users found.
+INFO:2021-04-04 02:04:37,820:Checking for potential updates to usernames.
+INFO:2021-04-04 02:04:37,821:Checking for potential updates to the players race.
+INFO:2021-04-04 02:04:37,822:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:04:37,822:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:04:37,822:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:04:37,823:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:04:37,823:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:04:37,825:No new updates to user_name
+INFO:2021-04-04 02:04:37,825:No new updates to user_race
+INFO:2021-04-04 02:04:37,825:No new updates to number_of_deaths
+INFO:2021-04-04 02:04:37,825:No new updates to main_quests_completed
+INFO:2021-04-04 02:04:37,825:No new updates to side_quests_completed
+INFO:2021-04-04 02:04:37,825:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:04:37,825:No new updates to playtime
+INFO:2021-04-04 02:04:37,825:No new updates to last_login
+INFO:2021-04-04 02:04:37,825:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:04:37,833:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:04:37,841:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:04:37,848:No deletions to be made from mob_info
+INFO:2021-04-04 02:04:37,848:No inserts to be made into mob_info
+INFO:2021-04-04 02:04:37,848:No updates to be made to mob_info
+INFO:2021-04-04 02:04:37,848:Commited all changes to the test_db database.
+INFO:2021-04-04 02:04:37,848:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:37,848:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:57,848:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:04:57,848:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:57,848:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:04:57,848:No new users found.
+INFO:2021-04-04 02:04:57,850:Checking for potential updates to usernames.
+INFO:2021-04-04 02:04:57,851:Checking for potential updates to the players race.
+INFO:2021-04-04 02:04:57,852:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:04:57,852:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:04:57,852:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:04:57,852:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:04:57,852:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:04:57,854:No new updates to user_name
+INFO:2021-04-04 02:04:57,854:No new updates to user_race
+INFO:2021-04-04 02:04:57,854:No new updates to number_of_deaths
+INFO:2021-04-04 02:04:57,854:No new updates to main_quests_completed
+INFO:2021-04-04 02:04:57,854:No new updates to side_quests_completed
+INFO:2021-04-04 02:04:57,854:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:04:57,854:No new updates to playtime
+INFO:2021-04-04 02:04:57,854:No new updates to last_login
+INFO:2021-04-04 02:04:57,854:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:04:57,862:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:04:57,869:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:04:57,876:No deletions to be made from mob_info
+INFO:2021-04-04 02:04:57,876:No inserts to be made into mob_info
+INFO:2021-04-04 02:04:57,876:No updates to be made to mob_info
+INFO:2021-04-04 02:04:57,876:Commited all changes to the test_db database.
+INFO:2021-04-04 02:04:57,876:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:04:57,876:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:05:17,876:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-04 02:05:17,876:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:05:17,876:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-04 02:05:17,877:No new users found.
+INFO:2021-04-04 02:05:17,878:Checking for potential updates to usernames.
+INFO:2021-04-04 02:05:17,880:Checking for potential updates to the players race.
+INFO:2021-04-04 02:05:17,880:Checking if the number of times players have died has changed.
+INFO:2021-04-04 02:05:17,881:Checking if the number of main quests completed has changed for any players.
+INFO:2021-04-04 02:05:17,881:Checking if the number of side quests completed has changed for any players.
+INFO:2021-04-04 02:05:17,881:Checking if the number of legendary beasts killed has changed for any players.
+INFO:2021-04-04 02:05:17,881:Checking for updates to: PLAYTIME
+INFO:2021-04-04 02:05:17,883:No new updates to user_name
+INFO:2021-04-04 02:05:17,883:No new updates to user_race
+INFO:2021-04-04 02:05:17,883:No new updates to number_of_deaths
+INFO:2021-04-04 02:05:17,883:No new updates to main_quests_completed
+INFO:2021-04-04 02:05:17,883:No new updates to side_quests_completed
+INFO:2021-04-04 02:05:17,884:No new updates to legendary_beasts_killed
+INFO:2021-04-04 02:05:17,884:No new updates to playtime
+INFO:2021-04-04 02:05:17,884:No new updates to last_login
+INFO:2021-04-04 02:05:17,884:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-04 02:05:17,893:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-04 02:05:17,901:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-04 02:05:17,908:No deletions to be made from mob_info
+INFO:2021-04-04 02:05:17,908:No inserts to be made into mob_info
+INFO:2021-04-04 02:05:17,909: Updating mob_info for mob_name: Bear_Boss
+                            file_name: Legendary_Beasts.yml
+                            mob_type: POLAR_BEAR
+                            mob_display: None
+                            mob_health: 40
+                            mob_damage: 8
+                            mob_armor: None
+                            mob_disguise: None
+                            mob_description: A crazy boss moofooker
+                            mob_location_ID: 2
+                            
+INFO:2021-04-04 02:05:17,925:Commited all changes to the test_db database.
+INFO:2021-04-04 02:05:17,925:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-04 02:05:17,925:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db

@@ -1,35 +1,40 @@
 #Author: Kristijonas Bileisis
 #Date Created: 04/03/2021
-#Last Modified: 04/03/2021
+#Last Modified: 04/04/2021
 #Description: Python file containing functions that deletes records from mob_info, updates records in mob_info or inserts new records into mob_info. 
 
+#imports
 import logging
 import yaml
 import os 
 import sqlite3
 
 
-
+#logging
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 
 
 
 #function that first deletes non_existent mobs, then inserts new mobs, then checks for updates to mob structure and then updates if there are updates to be made
 def mob_info(mob_path, cursor):
-   
-    check = check_mob_info(mob_path, cursor)
+    
+    try: 
+        check = check_mob_info(mob_path, cursor)
 
-    if check[0]:
-        delete_mob_info(check[0], cursor)
-    else: logging.info("No deletions to be made from mob_info")
+        if check[0]:
+            delete_mob_info(check[0], cursor)
+        else: logging.info("No deletions to be made from mob_info")
 
-    if check[1]:
-        insert_mob_info(check[1], cursor, mob_path)
-    else: logging.info("No inserts to be made into mob_info")
+        if check[1]:
+            insert_mob_info(check[1], cursor, mob_path)
+        else: logging.info("No inserts to be made into mob_info")
 
-    if check[2]:
-        update_mob_info(check[2], cursor)
-    else: logging.info("No updates to be made to mob_info")
+        if check[2]:
+            update_mob_info(check[2], cursor)
+        else: logging.info("No updates to be made to mob_info")
+
+    except sqlite3.Error as error:
+        logging.error("Sqlite Failed: ", error)
 
 
 
@@ -37,11 +42,14 @@ def mob_info(mob_path, cursor):
 #returns nested list containing [[delete_list],[insert_list],[update_list]] 
 def check_mob_info(mob_path, cursor):
 
-    delete_list = check_delete(mob_path, cursor)
-    insert_list = check_insert(mob_path, cursor)
-    update_list = check_update(mob_path, cursor)
+    try: 
+        delete_list = check_delete(mob_path, cursor)
+        insert_list = check_insert(mob_path, cursor)
+        update_list = check_update(mob_path, cursor)
 
-    return [delete_list, insert_list, update_list]
+        return [delete_list, insert_list, update_list]
+    except sqlite3.Error as error:
+        logging.error("Sqlite Failed: ", error)
 
 
 
@@ -59,7 +67,7 @@ def delete_mob_info(delete_list, cursor):
         cursor.execute(sqlite_delete_query)
 
     except sqlite3.Error as error:
-        print("Failed to delete from mob_info", error)
+        logging.error("Failed to delete from mob_info", error)
 
 
 
@@ -73,9 +81,20 @@ def insert_mob_info(insert_list, cursor, mob_path):
             mob_tuple = (data[0], data[2], data[1]["Type"], data[1]["Display"], data[1]["Health"], data[1]["Damage"], data[1]["Armor"], data[1]["Disguise"], data[1]["Description"], data[1]["Location"])
             insert_query = 'insert into mob_info (mob_name, file_name, mob_type, mob_display, mob_health, mob_damage, mob_armor, mob_disguise, mob_description, mob_location_ID) values (?,?,?,?,?,?,?,?,?,?)'
             cursor.execute(insert_query, mob_tuple)
+            logging.info(''' Inserting new record into mob_info....
+                            mob_name: %s 
+                            file_name: %s 
+                            mob_type: %s
+                            mob_health: %s
+                            mob_damage: %s
+                            mob_armor: %s
+                            mob_disguise: %s
+                            mob_description: %s
+                            mob_location_ID: %S ''', data[0], data[2], data[1]["Type"], data[1]["Display"], data[1]["Health"], data[1]["Damage"], data[1]["Armor"], data[1]["Disguise"], data[1]["Description"], data[1]["Location"])
+                            
 
     except sqlite3.Error as error:
-        print("Failed to insert into mob_info", error) 
+        logging.error("Failed to insert into mob_info", error) 
 
 
 
@@ -97,8 +116,19 @@ def update_mob_info(update_list, cursor):
                   mob_location_ID =  ? 
               WHERE mob_name = ? '''
             cursor.execute(sqlite_update_statement, mob_tuple)
+            logging.info(''' Updating mob_info for mob_name: %s
+                            file_name: %s
+                            mob_type: %s
+                            mob_display: %s
+                            mob_health: %s
+                            mob_damage: %s
+                            mob_armor: %s
+                            mob_disguise: %s
+                            mob_description: %s
+                            mob_location_ID: %s
+                            ''', data[0],data[1],data[2],data[3],data[4],data[5],data[6],data[7],data[8],data[9])
     except sqlite3.Error as error:
-        print("Failed to update record in mob_info", error)
+        logging.error("Failed to update record in mob_info", error)
 
 
 
@@ -128,7 +158,7 @@ def check_delete(mob_path, cursor):
         return delete_list
 
     except sqlite3.Error as error:
-        print("Failed to select from mob_info", error)
+        logging.error("Failed to select from mob_info", error)
 
 
 
@@ -157,7 +187,7 @@ def check_insert(mob_path, cursor):
         return insert_list
 
     except sqlite3.Error as error:
-        print("Failed to select into mob_info", error)
+        logging.error("Failed to select into mob_info", error)
 
 
 
@@ -186,7 +216,7 @@ def check_update(mob_path, cursor):
         return update_list 
 
     except sqlite3.Error as error:
-        print("Failed to select into mob_info", error)
+        logging.error("Failed to select into mob_info", error)
 
 
 
