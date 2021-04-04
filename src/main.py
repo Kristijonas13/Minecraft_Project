@@ -11,11 +11,12 @@ import time
 from new_player import insert_new_players
 import logging 
 from player_info import update_player_info_table
+from mob_info import mob_info
 
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
-
+mob_path= r"C:\Users\Kristijonas\Desktop\Spigot\plugins\MythicMobs\mobs"
 sqliteConnection = ['','']
 cursor = ['','']
 
@@ -38,6 +39,9 @@ def main():
 
         #update the player_info table
         update_player_info_table(essentials_path, cursor[0], cursor[1])
+
+        #manipulate the mob_info table
+        mob_info(mob_path,cursor[0])
 
         #close the cursors
         cursor[0].close()
