@@ -24,7 +24,7 @@ def mob_info(mob_path, cursor):
     else: logging.info("No deletions to be made from mob_info")
 
     if check[1]:
-        insert_mob_info(check[1])
+        insert_mob_info(check[1], cursor, mob_path)
     else: logging.info("No inserts to be made into mob_info")
 
     if check[2]:
@@ -38,7 +38,7 @@ def mob_info(mob_path, cursor):
 def check_mob_info(mob_path, cursor):
 
     delete_list = check_delete(mob_path, cursor)
-    insert_list = check_insert()
+    insert_list = check_insert(mob_path, cursor)
     update_list = check_update()
 
     return [delete_list, insert_list, update_list]
@@ -48,20 +48,34 @@ def check_mob_info(mob_path, cursor):
 #deletes records from mob_info that no longer exist
 def delete_mob_info(delete_list, cursor):
 
-    sqlite_delete_query = "delete from mob_info where mob_name in ('"
-    
-    for data in delete_list:
-        logging.info("Deleting mob name from mob_info: %s", data[0])
-        sqlite_delete_query = sqlite_delete_query + str(data[0] + "','")
+    try: 
+        sqlite_delete_query = "delete from mob_info where mob_name in ('"
+        
+        for data in delete_list:
+            logging.info("Deleting mob name from mob_info: %s", data[0])
+            sqlite_delete_query = sqlite_delete_query + str(data[0] + "','")
 
-    sqlite_delete_query = sqlite_delete_query[:-3] + "');"
-    cursor.execute(sqlite_delete_query)
+        sqlite_delete_query = sqlite_delete_query[:-3] + "');"
+        cursor.execute(sqlite_delete_query)
+        
+    except sqlite3.Error as error:
+        print("Failed to delete from mob_info", error)
 
 
 
 #inserts new records into mob_info 
-def insert_mob_info(insert_list):
-    print("insert_mob_info")
+def insert_mob_info(insert_list, cursor, mob_path):
+
+    try: 
+        mob_tuple =()
+
+        for data in insert_list:
+            mob_tuple = (data[0], data[2], data[1]["Type"], data[1]["Display"], data[1]["Health"], data[1]["Damage"], data[1]["Armor"], data[1]["Disguise"], data[1]["Description"], data[1]["Location"])
+            insert_query = 'insert into mob_info (mob_name, file_name, mob_type, mob_display, mob_health, mob_damage, mob_armor, mob_disguise, mob_description, mob_location_ID) values (?,?,?,?,?,?,?,?,?,?)'
+            cursor.execute(insert_query, mob_tuple)
+
+    except sqlite3.Error as error:
+        print("Failed to insert into mob_info", error) 
 
 
 
@@ -78,9 +92,6 @@ def check_delete(mob_path, cursor):
     logging.info("Checking to see if any records from mob_info need to be deleted.....")
     try: 
         os.chdir(mob_path)
-
-        new_login_list = []
-        playerID_list = []
 
         for filename in os.listdir(mob_path):
             sqlite_select_query = "select mob_name from mob_info where mob_name not in ('"
@@ -100,16 +111,36 @@ def check_delete(mob_path, cursor):
         return delete_list
 
     except sqlite3.Error as error:
-        print("Failed to delete from mob_info", error)
+        print("Failed to select from mob_info", error)
 
 
 
 #checks to see if there any inserts to be made
-def check_insert():
+def check_insert(mob_path, cursor):
     
     insert_list = []
+    logging.info("Checking to see if any records need to be inserted into mob_info.....")
+    try: 
+        os.chdir(mob_path)
 
-    return insert_list
+        for filename in os.listdir(mob_path):
+            sqlite_select_query = "select mob_name, file_name from mob_info where file_name = '"  + filename +"';"
+            cursor.execute(sqlite_select_query)
+            mob_name_list = cursor.fetchall()
+
+            f = open(filename, 'r')
+            list = yaml.load(f, Loader=yaml.FullLoader)
+
+            for item, doc in list.items():
+                insert_list.append([item,doc,filename])
+                for mob_name in mob_name_list:
+                    if (mob_name[0] == item):
+                        insert_list.remove([mob_name[0],doc,filename])
+
+        return insert_list
+
+    except sqlite3.Error as error:
+        print("Failed to select into mob_info", error)
 
 
 
