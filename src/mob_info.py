@@ -28,7 +28,7 @@ def mob_info(mob_path, cursor):
     else: logging.info("No inserts to be made into mob_info")
 
     if check[2]:
-        update_mob_info(check[2])
+        update_mob_info(check[2], cursor)
     else: logging.info("No updates to be made to mob_info")
 
 
@@ -39,7 +39,7 @@ def check_mob_info(mob_path, cursor):
 
     delete_list = check_delete(mob_path, cursor)
     insert_list = check_insert(mob_path, cursor)
-    update_list = check_update()
+    update_list = check_update(mob_path, cursor)
 
     return [delete_list, insert_list, update_list]
 
@@ -57,7 +57,7 @@ def delete_mob_info(delete_list, cursor):
 
         sqlite_delete_query = sqlite_delete_query[:-3] + "');"
         cursor.execute(sqlite_delete_query)
-        
+
     except sqlite3.Error as error:
         print("Failed to delete from mob_info", error)
 
@@ -80,8 +80,25 @@ def insert_mob_info(insert_list, cursor, mob_path):
 
 
 #updates the records in mob_info
-def update_mob_info(update_list):
-    print("update_mob_info")
+def update_mob_info(update_list, cursor):
+    try: 
+        mob_tuple = ()
+        for data in update_list:
+            mob_tuple = (data[1],data[2],data[3],data[4],data[5],data[6],data[7],data[8],data[9],data[0])
+            sqlite_update_statement = ''' UPDATE mob_info
+              SET file_name = ? ,
+                  mob_type = ? ,
+                  mob_display = ? ,
+                  mob_health = ? ,
+                  mob_damage = ? ,
+                  mob_armor =  ? ,
+                  mob_disguise =  ? ,
+                  mob_description =  ? ,
+                  mob_location_ID =  ? 
+              WHERE mob_name = ? '''
+            cursor.execute(sqlite_update_statement, mob_tuple)
+    except sqlite3.Error as error:
+        print("Failed to update record in mob_info", error)
 
 
 
@@ -145,11 +162,31 @@ def check_insert(mob_path, cursor):
 
 
 #checks to see if there any updates to be made
-def check_update():
+def check_update(mob_path, cursor):
 
     update_list = []
+    logging.info("Checking to see if any records need to be updated in mob_info.....")
+    try: 
+        os.chdir(mob_path)
 
-    return update_list
+        for filename in os.listdir(mob_path):
+            sqlite_select_query = "select * from mob_info where file_name = '"  + filename +"';"
+            cursor.execute(sqlite_select_query)
+            mob_name_list = cursor.fetchall()
+
+            f = open(filename, 'r')
+            list = yaml.load(f, Loader=yaml.FullLoader)
+            for item, doc in list.items():
+                item_tuple = (item, filename,  doc["Type"], doc["Display"], doc["Health"], doc["Damage"], doc["Armor"], doc["Disguise"], doc["Description"], doc["Location"])
+                update_list.append(item_tuple)
+                for mob_name in mob_name_list:
+                    if (mob_name == item_tuple):
+                        update_list.remove(item_tuple)
+
+        return update_list 
+
+    except sqlite3.Error as error:
+        print("Failed to select into mob_info", error)
 
 
 

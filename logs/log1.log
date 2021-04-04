@@ -1227,3 +1227,579 @@ INFO:2021-04-03 21:57:59,989:No updates to be made to mob_info
 INFO:2021-04-03 21:57:59,989:Commited all changes to the test_db database.
 INFO:2021-04-03 21:57:59,989:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
 INFO:2021-04-03 21:57:59,989:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:02,985:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:02,985:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:02,985:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:07:02,993:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:07:03,001:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:03,001:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:37,691:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:37,691:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:37,691:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:07:37,699:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:07:37,706:No deletions to be made from mob_info
+INFO:2021-04-03 22:07:37,706:No inserts to be made into mob_info
+INFO:2021-04-03 22:07:37,706:No updates to be made to mob_info
+INFO:2021-04-03 22:07:37,706:Commited all changes to the test_db database.
+INFO:2021-04-03 22:07:37,706:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:37,706:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:57,707:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:07:57,707:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:57,707:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:07:57,715:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:07:57,722:No deletions to be made from mob_info
+INFO:2021-04-03 22:07:57,722:No inserts to be made into mob_info
+INFO:2021-04-03 22:07:57,722:No updates to be made to mob_info
+INFO:2021-04-03 22:07:57,722:Commited all changes to the test_db database.
+INFO:2021-04-03 22:07:57,722:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:07:57,722:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:17,724:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:17,725:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:17,726:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:08:17,738:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:08:17,746:No deletions to be made from mob_info
+INFO:2021-04-03 22:08:17,747:No updates to be made to mob_info
+INFO:2021-04-03 22:08:17,764:Commited all changes to the test_db database.
+INFO:2021-04-03 22:08:17,764:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:17,764:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:35,845:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:35,845:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:35,845:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:08:35,856:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:08:35,866:No deletions to be made from mob_info
+INFO:2021-04-03 22:08:35,866:No inserts to be made into mob_info
+INFO:2021-04-03 22:08:35,866:No updates to be made to mob_info
+INFO:2021-04-03 22:08:35,866:Commited all changes to the test_db database.
+INFO:2021-04-03 22:08:35,866:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:35,866:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:55,866:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:08:55,867:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:55,868:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:08:55,880:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:08:55,889:No deletions to be made from mob_info
+INFO:2021-04-03 22:08:55,889:No inserts to be made into mob_info
+INFO:2021-04-03 22:08:55,890:No updates to be made to mob_info
+INFO:2021-04-03 22:08:55,890:Commited all changes to the test_db database.
+INFO:2021-04-03 22:08:55,890:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:08:55,890:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:09:15,891:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:09:15,891:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:09:15,891:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:09:15,901:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:09:15,911:No deletions to be made from mob_info
+INFO:2021-04-03 22:09:15,911:No inserts to be made into mob_info
+INFO:2021-04-03 22:09:15,911:No updates to be made to mob_info
+INFO:2021-04-03 22:09:15,911:Commited all changes to the test_db database.
+INFO:2021-04-03 22:09:15,911:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:09:15,911:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:09:50,987:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:09:50,987:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:09:50,987:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:09:50,995:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:09:51,003:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:09:51,010:Deleting mob name from mob_info: Ugly1_Boss
+INFO:2021-04-03 22:09:51,011:No inserts to be made into mob_info
+INFO:2021-04-03 22:09:51,011:No updates to be made to mob_info
+INFO:2021-04-03 22:09:51,025:Commited all changes to the test_db database.
+INFO:2021-04-03 22:09:51,025:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:09:51,025:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:16:23,076:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:16:23,076:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:16:23,076:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:16:23,084:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:16:23,092:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:16:23,099:No deletions to be made from mob_info
+INFO:2021-04-03 22:16:23,099:No inserts to be made into mob_info
+INFO:2021-04-03 22:16:23,099:No updates to be made to mob_info
+INFO:2021-04-03 22:16:23,099:Commited all changes to the test_db database.
+INFO:2021-04-03 22:16:23,099:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:16:23,099:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:16:43,099:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:16:43,100:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:16:43,101:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:16:43,111:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:16:43,119:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:16:43,126:No deletions to be made from mob_info
+INFO:2021-04-03 22:16:43,126:No inserts to be made into mob_info
+INFO:2021-04-03 22:16:43,126:No updates to be made to mob_info
+INFO:2021-04-03 22:16:43,126:Commited all changes to the test_db database.
+INFO:2021-04-03 22:16:43,126:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:16:43,126:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:03,126:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:03,127:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:03,128:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:17:03,138:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:17:03,145:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:17:03,153:No deletions to be made from mob_info
+INFO:2021-04-03 22:17:03,153:No inserts to be made into mob_info
+INFO:2021-04-03 22:17:03,153:No updates to be made to mob_info
+INFO:2021-04-03 22:17:03,153:Commited all changes to the test_db database.
+INFO:2021-04-03 22:17:03,153:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:03,153:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:23,154:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:23,154:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:23,154:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:17:23,162:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:17:23,169:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:17:23,176:No deletions to be made from mob_info
+INFO:2021-04-03 22:17:23,176:No inserts to be made into mob_info
+INFO:2021-04-03 22:17:23,176:No updates to be made to mob_info
+INFO:2021-04-03 22:17:23,176:Commited all changes to the test_db database.
+INFO:2021-04-03 22:17:23,176:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:23,176:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:43,177:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:43,177:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:43,177:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:17:43,185:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:17:43,192:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:17:43,199:No deletions to be made from mob_info
+INFO:2021-04-03 22:17:43,200:No inserts to be made into mob_info
+INFO:2021-04-03 22:17:43,200:No updates to be made to mob_info
+INFO:2021-04-03 22:17:43,200:Commited all changes to the test_db database.
+INFO:2021-04-03 22:17:43,200:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:43,200:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:48,915:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:17:48,915:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:48,916:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:17:48,923:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:17:48,931:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:17:48,941:No deletions to be made from mob_info
+INFO:2021-04-03 22:17:48,941:No inserts to be made into mob_info
+INFO:2021-04-03 22:17:48,941:No updates to be made to mob_info
+INFO:2021-04-03 22:17:48,941:Commited all changes to the test_db database.
+INFO:2021-04-03 22:17:48,941:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:17:48,941:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:18:08,942:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:18:08,942:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:18:08,942:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:18:08,949:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:18:08,956:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:18:08,967:No deletions to be made from mob_info
+INFO:2021-04-03 22:18:08,967:No inserts to be made into mob_info
+INFO:2021-04-03 22:18:08,967:No updates to be made to mob_info
+INFO:2021-04-03 22:18:08,967:Commited all changes to the test_db database.
+INFO:2021-04-03 22:18:08,967:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:18:08,967:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:18:57,138:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:18:57,138:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:18:57,138:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:18:57,146:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:18:57,153:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:18:57,160:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:18:57,160:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:20:57,976:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:20:57,976:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:20:57,977:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:20:57,984:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:20:57,992:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:20:58,002:No deletions to be made from mob_info
+INFO:2021-04-03 22:20:58,002:No inserts to be made into mob_info
+INFO:2021-04-03 22:20:58,002:No updates to be made to mob_info
+INFO:2021-04-03 22:20:58,002:Commited all changes to the test_db database.
+INFO:2021-04-03 22:20:58,002:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:20:58,002:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:18,002:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:18,002:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:18,002:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:21:18,010:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:21:18,017:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:21:18,027:No deletions to be made from mob_info
+INFO:2021-04-03 22:21:18,027:No inserts to be made into mob_info
+INFO:2021-04-03 22:21:18,027:No updates to be made to mob_info
+INFO:2021-04-03 22:21:18,027:Commited all changes to the test_db database.
+INFO:2021-04-03 22:21:18,027:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:18,028:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:38,029:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:38,029:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:38,029:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:21:38,037:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:21:38,044:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:21:38,054:No deletions to be made from mob_info
+INFO:2021-04-03 22:21:38,054:No inserts to be made into mob_info
+INFO:2021-04-03 22:21:38,054:No updates to be made to mob_info
+INFO:2021-04-03 22:21:38,054:Commited all changes to the test_db database.
+INFO:2021-04-03 22:21:38,054:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:38,054:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:58,054:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:21:58,054:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:58,054:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:21:58,062:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:21:58,069:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:21:58,080:No deletions to be made from mob_info
+INFO:2021-04-03 22:21:58,080:No inserts to be made into mob_info
+INFO:2021-04-03 22:21:58,080:No updates to be made to mob_info
+INFO:2021-04-03 22:21:58,080:Commited all changes to the test_db database.
+INFO:2021-04-03 22:21:58,080:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:21:58,080:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:18,080:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:18,080:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:18,080:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:22:18,088:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:22:18,096:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:22:18,105:No deletions to be made from mob_info
+INFO:2021-04-03 22:22:18,105:No inserts to be made into mob_info
+INFO:2021-04-03 22:22:18,105:No updates to be made to mob_info
+INFO:2021-04-03 22:22:18,105:Commited all changes to the test_db database.
+INFO:2021-04-03 22:22:18,105:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:18,105:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:37,340:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:37,340:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:37,340:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:22:37,348:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:22:37,356:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:22:37,363:No deletions to be made from mob_info
+INFO:2021-04-03 22:22:37,363:No inserts to be made into mob_info
+INFO:2021-04-03 22:22:37,364:Commited all changes to the test_db database.
+INFO:2021-04-03 22:22:37,364:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:37,364:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:56,078:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:22:56,079:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:56,079:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:22:56,087:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:22:56,094:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:22:56,102:No deletions to be made from mob_info
+INFO:2021-04-03 22:22:56,102:No inserts to be made into mob_info
+INFO:2021-04-03 22:22:56,102:Commited all changes to the test_db database.
+INFO:2021-04-03 22:22:56,102:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:22:56,102:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:16,102:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:16,102:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:16,102:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:23:16,111:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:23:16,118:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:23:16,126:No deletions to be made from mob_info
+INFO:2021-04-03 22:23:16,126:No inserts to be made into mob_info
+INFO:2021-04-03 22:23:16,126:Commited all changes to the test_db database.
+INFO:2021-04-03 22:23:16,126:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:16,126:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:36,127:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:36,127:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:36,127:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:23:36,135:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:23:36,143:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:23:36,150:No deletions to be made from mob_info
+INFO:2021-04-03 22:23:36,150:No inserts to be made into mob_info
+INFO:2021-04-03 22:23:36,151:Commited all changes to the test_db database.
+INFO:2021-04-03 22:23:36,151:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:36,151:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:56,151:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:23:56,151:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:56,151:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:23:56,159:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:23:56,167:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:23:56,174:No deletions to be made from mob_info
+INFO:2021-04-03 22:23:56,174:No inserts to be made into mob_info
+INFO:2021-04-03 22:23:56,174:Commited all changes to the test_db database.
+INFO:2021-04-03 22:23:56,174:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:23:56,174:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:24:00,081:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:24:00,081:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:24:00,081:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:24:00,088:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:24:00,096:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:24:00,103:No deletions to be made from mob_info
+INFO:2021-04-03 22:24:00,103:No inserts to be made into mob_info
+INFO:2021-04-03 22:24:00,103:Commited all changes to the test_db database.
+INFO:2021-04-03 22:24:00,103:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:24:00,103:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:24:20,104:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:24:20,104:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:24:20,104:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:24:20,112:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:24:20,120:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:24:20,127:No deletions to be made from mob_info
+INFO:2021-04-03 22:24:20,127:No inserts to be made into mob_info
+INFO:2021-04-03 22:24:20,127:Commited all changes to the test_db database.
+INFO:2021-04-03 22:24:20,127:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:24:20,127:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:31:55,608:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:31:55,608:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:31:55,608:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:31:55,616:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:31:55,624:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:31:55,631:No deletions to be made from mob_info
+INFO:2021-04-03 22:31:55,631:No inserts to be made into mob_info
+INFO:2021-04-03 22:31:55,631:Commited all changes to the test_db database.
+INFO:2021-04-03 22:31:55,631:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:31:55,631:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:15,632:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:15,632:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:15,632:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:32:15,640:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:32:15,649:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:32:15,657:No deletions to be made from mob_info
+INFO:2021-04-03 22:32:15,657:No inserts to be made into mob_info
+INFO:2021-04-03 22:32:15,657:Commited all changes to the test_db database.
+INFO:2021-04-03 22:32:15,657:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:15,657:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:35,658:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:35,659:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:35,660:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:32:35,670:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:32:35,678:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:32:35,685:No deletions to be made from mob_info
+INFO:2021-04-03 22:32:35,685:No inserts to be made into mob_info
+INFO:2021-04-03 22:32:35,685:Commited all changes to the test_db database.
+INFO:2021-04-03 22:32:35,685:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:35,685:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:55,685:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:32:55,686:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:55,687:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:32:55,697:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:32:55,705:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:32:55,712:No deletions to be made from mob_info
+INFO:2021-04-03 22:32:55,712:No inserts to be made into mob_info
+INFO:2021-04-03 22:32:55,712:Commited all changes to the test_db database.
+INFO:2021-04-03 22:32:55,712:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:32:55,712:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:15,713:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:15,713:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:15,713:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:33:15,721:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:33:15,728:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:33:15,735:No deletions to be made from mob_info
+INFO:2021-04-03 22:33:15,735:No inserts to be made into mob_info
+INFO:2021-04-03 22:33:15,736:Commited all changes to the test_db database.
+INFO:2021-04-03 22:33:15,736:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:15,736:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:35,737:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:35,738:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:35,739:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:33:35,749:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:33:35,756:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:33:35,764:No deletions to be made from mob_info
+INFO:2021-04-03 22:33:35,764:No inserts to be made into mob_info
+INFO:2021-04-03 22:33:35,764:Commited all changes to the test_db database.
+INFO:2021-04-03 22:33:35,764:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:35,764:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:55,764:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:33:55,764:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:55,764:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:33:55,772:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:33:55,780:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:33:55,787:No deletions to be made from mob_info
+INFO:2021-04-03 22:33:55,787:No inserts to be made into mob_info
+INFO:2021-04-03 22:33:55,787:Commited all changes to the test_db database.
+INFO:2021-04-03 22:33:55,788:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:33:55,788:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:15,788:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:15,788:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:15,788:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:34:15,796:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:34:15,805:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:34:15,813:No deletions to be made from mob_info
+INFO:2021-04-03 22:34:15,813:No inserts to be made into mob_info
+INFO:2021-04-03 22:34:15,813:Commited all changes to the test_db database.
+INFO:2021-04-03 22:34:15,814:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:15,814:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:35,814:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:35,815:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:35,815:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:34:35,825:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:34:35,833:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:34:35,840:No deletions to be made from mob_info
+INFO:2021-04-03 22:34:35,840:No inserts to be made into mob_info
+INFO:2021-04-03 22:34:35,841:Commited all changes to the test_db database.
+INFO:2021-04-03 22:34:35,841:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:35,841:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:55,841:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:34:55,841:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:55,841:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:34:55,849:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:34:55,856:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:34:55,864:No deletions to be made from mob_info
+INFO:2021-04-03 22:34:55,864:No inserts to be made into mob_info
+INFO:2021-04-03 22:34:55,865:Commited all changes to the test_db database.
+INFO:2021-04-03 22:34:55,865:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:34:55,865:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:10,041:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:10,042:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:10,042:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:35:10,050:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:35:10,057:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:35:10,065:No deletions to be made from mob_info
+INFO:2021-04-03 22:35:10,065:No inserts to be made into mob_info
+INFO:2021-04-03 22:35:10,065:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:10,065:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:21,270:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:21,270:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:21,270:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:35:21,279:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:35:21,286:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:35:21,294:No deletions to be made from mob_info
+INFO:2021-04-03 22:35:21,294:No inserts to be made into mob_info
+INFO:2021-04-03 22:35:21,295:Commited all changes to the test_db database.
+INFO:2021-04-03 22:35:21,295:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:21,295:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:41,296:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:41,296:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:41,296:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:35:41,304:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:35:41,311:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:35:41,319:No deletions to be made from mob_info
+INFO:2021-04-03 22:35:41,319:No inserts to be made into mob_info
+INFO:2021-04-03 22:35:41,319:Commited all changes to the test_db database.
+INFO:2021-04-03 22:35:41,319:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:41,319:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:46,125:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:35:46,125:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:46,125:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:35:46,133:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:35:46,140:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:35:46,148:No deletions to be made from mob_info
+INFO:2021-04-03 22:35:46,148:No inserts to be made into mob_info
+INFO:2021-04-03 22:35:46,148:Commited all changes to the test_db database.
+INFO:2021-04-03 22:35:46,148:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:35:46,148:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:06,149:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:06,149:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:06,149:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:36:06,157:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:36:06,165:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:36:06,172:No deletions to be made from mob_info
+INFO:2021-04-03 22:36:06,172:No inserts to be made into mob_info
+INFO:2021-04-03 22:36:06,173:Commited all changes to the test_db database.
+INFO:2021-04-03 22:36:06,173:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:06,173:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:08,014:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:08,014:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:08,014:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:36:08,022:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:36:08,030:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:36:08,037:No deletions to be made from mob_info
+INFO:2021-04-03 22:36:08,037:No inserts to be made into mob_info
+INFO:2021-04-03 22:36:08,037:Commited all changes to the test_db database.
+INFO:2021-04-03 22:36:08,037:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:08,037:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:28,037:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:28,037:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:28,037:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:36:28,047:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:36:28,055:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:36:28,062:No deletions to be made from mob_info
+INFO:2021-04-03 22:36:28,062:No inserts to be made into mob_info
+INFO:2021-04-03 22:36:28,062:Commited all changes to the test_db database.
+INFO:2021-04-03 22:36:28,063:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:28,063:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:48,063:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:36:48,064:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:48,065:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:36:48,075:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:36:48,082:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:36:48,089:No deletions to be made from mob_info
+INFO:2021-04-03 22:36:48,089:No inserts to be made into mob_info
+INFO:2021-04-03 22:36:48,090:Commited all changes to the test_db database.
+INFO:2021-04-03 22:36:48,090:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:36:48,090:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:08,090:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:08,090:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:08,090:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:37:08,098:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:37:08,105:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:37:08,112:No deletions to be made from mob_info
+INFO:2021-04-03 22:37:08,112:No inserts to be made into mob_info
+INFO:2021-04-03 22:37:08,112:Commited all changes to the test_db database.
+INFO:2021-04-03 22:37:08,112:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:08,113:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:28,114:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:28,114:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:28,114:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:37:28,122:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:37:28,130:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:37:28,137:No deletions to be made from mob_info
+INFO:2021-04-03 22:37:28,137:No inserts to be made into mob_info
+INFO:2021-04-03 22:37:28,137:Commited all changes to the test_db database.
+INFO:2021-04-03 22:37:28,138:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:28,138:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:48,138:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:37:48,138:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:48,138:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:37:48,146:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:37:48,154:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:37:48,161:No deletions to be made from mob_info
+INFO:2021-04-03 22:37:48,161:No inserts to be made into mob_info
+INFO:2021-04-03 22:37:48,161:Commited all changes to the test_db database.
+INFO:2021-04-03 22:37:48,161:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:37:48,162:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:08,162:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:08,162:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:08,162:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:38:08,170:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:38:08,177:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:38:08,185:No deletions to be made from mob_info
+INFO:2021-04-03 22:38:08,185:No inserts to be made into mob_info
+INFO:2021-04-03 22:38:08,185:Commited all changes to the test_db database.
+INFO:2021-04-03 22:38:08,185:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:08,185:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:17,656:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:17,657:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:17,657:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:38:17,665:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:38:17,672:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:38:17,680:No deletions to be made from mob_info
+INFO:2021-04-03 22:38:17,680:No inserts to be made into mob_info
+INFO:2021-04-03 22:38:17,680:Commited all changes to the test_db database.
+INFO:2021-04-03 22:38:17,680:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:17,680:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:35,608:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:35,608:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:35,608:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:38:35,616:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:38:35,624:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:38:35,631:No deletions to be made from mob_info
+INFO:2021-04-03 22:38:35,631:No inserts to be made into mob_info
+INFO:2021-04-03 22:38:35,646:Commited all changes to the test_db database.
+INFO:2021-04-03 22:38:35,646:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:35,646:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:55,646:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:38:55,646:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:55,646:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:38:55,654:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:38:55,661:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:38:55,669:No deletions to be made from mob_info
+INFO:2021-04-03 22:38:55,669:No inserts to be made into mob_info
+INFO:2021-04-03 22:38:55,684:Commited all changes to the test_db database.
+INFO:2021-04-03 22:38:55,685:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:38:55,685:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:39:40,453:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:39:40,454:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:39:40,454:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:39:40,462:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:39:40,469:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:39:40,477:No deletions to be made from mob_info
+INFO:2021-04-03 22:39:40,477:No inserts to be made into mob_info
+INFO:2021-04-03 22:39:40,889:Commited all changes to the test_db database.
+INFO:2021-04-03 22:39:40,889:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:39:40,889:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:00,890:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:00,891:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:00,892:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:40:00,913:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:40:00,921:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:40:00,928:No deletions to be made from mob_info
+INFO:2021-04-03 22:40:00,928:No inserts to be made into mob_info
+INFO:2021-04-03 22:40:00,929:No updates to be made to mob_info
+INFO:2021-04-03 22:40:00,929:Commited all changes to the test_db database.
+INFO:2021-04-03 22:40:00,929:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:00,929:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:20,929:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:20,929:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:20,929:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:40:20,937:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:40:20,944:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:40:20,952:No deletions to be made from mob_info
+INFO:2021-04-03 22:40:20,952:No inserts to be made into mob_info
+INFO:2021-04-03 22:40:20,968:Commited all changes to the test_db database.
+INFO:2021-04-03 22:40:20,968:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:20,968:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:40,968:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-03 22:40:40,969:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:40,970:Checking to see if any records from mob_info need to be deleted.....
+INFO:2021-04-03 22:40:40,980:Checking to see if any records need to be inserted into mob_info.....
+INFO:2021-04-03 22:40:40,988:Checking to see if any records need to be updated in mob_info.....
+INFO:2021-04-03 22:40:40,995:No deletions to be made from mob_info
+INFO:2021-04-03 22:40:40,995:No inserts to be made into mob_info
+INFO:2021-04-03 22:40:40,995:No updates to be made to mob_info
+INFO:2021-04-03 22:40:40,995:Commited all changes to the test_db database.
+INFO:2021-04-03 22:40:40,995:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-03 22:40:40,995:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
