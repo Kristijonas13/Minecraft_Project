@@ -17,6 +17,9 @@
             --- insert_data, update_data
                 * [[mob_name, filename]]
             --- if one of those return an empty list, then the corresponding function will not run
+
+--- mob_kills.py    
+    * check_mob_kills()
             
 
 
