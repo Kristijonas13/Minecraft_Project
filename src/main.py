@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 03/12/2021
-#Last Modified: 04/04/2021
+#Last Modified: 04/05/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
@@ -15,6 +15,7 @@ from new_player import insert_new_players
 import logging 
 from player_info import update_player_info_table
 from mob_info import mob_info
+from mob_kills import mob_kills
 
 
 
@@ -45,13 +46,16 @@ def main():
             count = count + 1
 
         #check for new players; if new players exist, insert them into the test_db
-        insert_new_players(essentials_path, cursor[0], beast_name_list)
+        #insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
-        update_player_info_table(essentials_path, cursor[0], cursor[1])
+        #update_player_info_table(essentials_path, cursor[0], cursor[1])
 
         #manipulate the mob_info table
-        mob_info(mob_path,cursor[0])
+        #mob_info(mob_path,cursor[0])
+
+        #manipulate the mob_kills table
+        mob_kills(cursor[0], cursor[1])
 
         #close the cursors
         cursor[0].close()
