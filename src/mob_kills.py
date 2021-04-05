@@ -58,6 +58,11 @@ def insert_mob_kills(insert_list,cursor):
                                       values (?,?,?); '''
             cursor.execute(sqlite_insert_query, data_tuple)
 
+            logging.info('''Inserting into mob_kills table.....
+                            playerID: %s
+                            mob_name: %s
+                            kill_count: %s''', data_tuple[0], data_tuple[1], data_tuple[2])
+
     except sqlite3.Error as error:
         logging.error("Failed to insert into mob_kills: %s", error)
 
@@ -72,15 +77,24 @@ def update_mob_kills(update_list, cursor):
                                          kill_count = ?
                                      where playerID = ?;'''
             cursor.execute(sqlite_update_query, (data[1],data[2],data[0]))
+
+            logging.info('''Updating record in mob_kills table.....
+                            playerID: %s
+                            mob_name: %s
+                            kill_count: %s''', data[0], data[1], data)
+
     except sqlite3.Error as error: 
         logging.error("Sqlite Failed: ", error)
 
 
 
 def check_insert(cursor, cursor2):
+
     insert_list = []
 
     try: 
+
+        logging.info("Checking to see if there are any new records to insert into mob_kills.....")
         sqlite_attach_query = " attach 'C:/Users/Kristijonas/Desktop/Spigot/plugins/BetonQuest/database.db' as 'bq_db'; "
         cursor.execute(sqlite_attach_query)
 
@@ -113,6 +127,8 @@ def check_update(cursor, cursor2):
 
 
     try: 
+
+        logging.info("Checking to see if there are any updates to be made in mob_kills....")
         sqlite_bq_select_query = "select playerID, category, count from betonquest_points where category like 'stats-mob_stats.%';"
         cursor2.execute(sqlite_bq_select_query)
         bq_stats_list = cursor2.fetchall()
