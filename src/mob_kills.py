@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 04/04/2021
-#Last Modified: 04/04/2021
+#Last Modified: 04/05/2021
 #Description: Python file containing functions that deletes records from mob_kills, updates records in mob_kills or inserts new records into mob_kills. 
 
 
@@ -23,7 +23,7 @@ def mob_kills(cursor, cursor2):
         check = check_mob_kills(cursor, cursor2)
 
         if check[0]:
-            insert_mob_kills(check[0])
+            insert_mob_kills(check[0], cursor)
         else: logging.info("No inserts to be made into mob_kills")
 
         if check[1]:
@@ -47,8 +47,19 @@ def check_mob_kills(cursor, cursor2):
 
 
 
-def insert_mob_kills():
-    print("insert_mob_kills")
+def insert_mob_kills(insert_list,cursor):
+
+    try: 
+        for data in insert_list: 
+            mob_name = data[2].replace('stats-mob_stats.', '')
+            data_tuple = (data[1], mob_name, data[3])
+            sqlite_insert_query = ''' insert into mob_kills 
+                                      (playerID, mob_name, kill_count)
+                                      values (?,?,?); '''
+            cursor.execute(sqlite_insert_query, data_tuple)
+
+    except sqlite3.Error as error:
+        logging.error("Failed to insert into mob_kills: %s", error)
 
 
 
@@ -67,7 +78,30 @@ def update_mob_kills(update_list, cursor):
 
 
 def check_insert(cursor, cursor2):
-    print("hooha")    
+    insert_list = []
+
+    try: 
+        sqlite_attach_query = " attach 'C:/Users/Kristijonas/Desktop/Spigot/plugins/BetonQuest/database.db' as 'bq_db'; "
+        cursor.execute(sqlite_attach_query)
+
+        sqlite_select_query = ''' select * from bq_db.betonquest_points b
+                                  where not exists (select * from mob_kills m 
+                                                    where b.playerID = m.playerID and replace(b.category,'stats-mob_stats.','') = m.mob_name)
+                                                    and b.category like 'stats-mob_stats.%'; '''
+        
+        cursor.execute(sqlite_select_query)
+        not_exist_mob_list = cursor.fetchall()
+
+        for not_exist_mob in not_exist_mob_list:
+            insert_list.append(not_exist_mob)
+        
+        sqlite_detach_query = "detach database 'bq_db'; "
+        cursor.execute(sqlite_detach_query)
+
+        return insert_list
+
+    except sqlite3.Error as error:
+        logging.error("Sqlite Failed: ", error)  
 
 
 

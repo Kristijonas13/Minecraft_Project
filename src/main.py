@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 03/12/2021
-#Last Modified: 04/04/2021
+#Last Modified: 04/05/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
@@ -56,6 +56,7 @@ def main():
 
         #manipulate the mob_kills table
         mob_kills(cursor[0], cursor[1])
+
         #close the cursors
         cursor[0].close()
         cursor[1].close()

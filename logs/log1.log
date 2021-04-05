@@ -2526,3 +2526,317 @@ INFO:2021-04-04 03:39:33,339:No updates to be made to mob_kills
 INFO:2021-04-04 03:39:33,339:Commited all changes to the test_db database.
 INFO:2021-04-04 03:39:33,339:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
 INFO:2021-04-04 03:39:33,339:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:46:28,849:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:46:28,862:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:46:28,863:No inserts to be made into mob_kills
+INFO:2021-04-05 08:46:28,863:No updates to be made to mob_kills
+INFO:2021-04-05 08:46:28,863:Commited all changes to the test_db database.
+INFO:2021-04-05 08:46:28,863:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:46:28,863:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:52:32,079:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:52:32,079:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:52:32,080:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:52:32,080:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:53:52,998:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:53:52,998:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:53:53,004:No inserts to be made into mob_kills
+INFO:2021-04-05 08:53:53,004:No updates to be made to mob_kills
+INFO:2021-04-05 08:53:53,004:Commited all changes to the test_db database.
+INFO:2021-04-05 08:53:53,005:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:53:53,005:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:54:07,432:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:54:07,432:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:54:07,438:No inserts to be made into mob_kills
+INFO:2021-04-05 08:54:07,438:No updates to be made to mob_kills
+INFO:2021-04-05 08:54:07,438:Commited all changes to the test_db database.
+INFO:2021-04-05 08:54:07,438:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:54:07,438:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:54:53,740:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:54:53,740:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:54:53,742:No inserts to be made into mob_kills
+INFO:2021-04-05 08:54:53,742:No updates to be made to mob_kills
+INFO:2021-04-05 08:54:53,742:Commited all changes to the test_db database.
+INFO:2021-04-05 08:54:53,742:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:54:53,742:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:13,743:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:13,743:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:13,743:No inserts to be made into mob_kills
+INFO:2021-04-05 08:55:13,745:No updates to be made to mob_kills
+INFO:2021-04-05 08:55:13,745:Commited all changes to the test_db database.
+INFO:2021-04-05 08:55:13,745:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:13,745:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:33,745:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:33,745:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:33,746:No inserts to be made into mob_kills
+INFO:2021-04-05 08:55:33,746:No updates to be made to mob_kills
+INFO:2021-04-05 08:55:33,747:Commited all changes to the test_db database.
+INFO:2021-04-05 08:55:33,747:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:33,747:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:53,747:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:55:53,748:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:53,752:No inserts to be made into mob_kills
+INFO:2021-04-05 08:55:53,753:No updates to be made to mob_kills
+INFO:2021-04-05 08:55:53,753:Commited all changes to the test_db database.
+INFO:2021-04-05 08:55:53,753:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:55:53,753:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:56:06,298:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:56:06,298:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:56:06,299:No inserts to be made into mob_kills
+INFO:2021-04-05 08:56:06,299:No updates to be made to mob_kills
+INFO:2021-04-05 08:56:06,299:Commited all changes to the test_db database.
+INFO:2021-04-05 08:56:06,299:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:56:06,299:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:56:26,299:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:56:26,299:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:56:26,300:No inserts to be made into mob_kills
+INFO:2021-04-05 08:56:26,300:No updates to be made to mob_kills
+INFO:2021-04-05 08:56:26,300:Commited all changes to the test_db database.
+INFO:2021-04-05 08:56:26,300:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:56:26,300:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:02,122:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:02,122:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:02,128:No inserts to be made into mob_kills
+INFO:2021-04-05 08:57:02,128:No updates to be made to mob_kills
+INFO:2021-04-05 08:57:02,128:Commited all changes to the test_db database.
+INFO:2021-04-05 08:57:02,128:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:02,128:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:12,822:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:12,822:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:12,823:No inserts to be made into mob_kills
+INFO:2021-04-05 08:57:12,823:No updates to be made to mob_kills
+INFO:2021-04-05 08:57:12,823:Commited all changes to the test_db database.
+INFO:2021-04-05 08:57:12,823:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:12,823:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:32,823:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:32,823:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:32,824:No inserts to be made into mob_kills
+INFO:2021-04-05 08:57:32,824:No updates to be made to mob_kills
+INFO:2021-04-05 08:57:32,824:Commited all changes to the test_db database.
+INFO:2021-04-05 08:57:32,824:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:32,825:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:52,825:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:57:52,826:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:52,832:No inserts to be made into mob_kills
+INFO:2021-04-05 08:57:52,833:No updates to be made to mob_kills
+INFO:2021-04-05 08:57:52,833:Commited all changes to the test_db database.
+INFO:2021-04-05 08:57:52,833:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:57:52,834:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:12,835:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:12,835:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:12,836:No inserts to be made into mob_kills
+INFO:2021-04-05 08:58:12,836:No updates to be made to mob_kills
+INFO:2021-04-05 08:58:12,837:Commited all changes to the test_db database.
+INFO:2021-04-05 08:58:12,837:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:12,837:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:32,838:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:32,838:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:32,839:No inserts to be made into mob_kills
+INFO:2021-04-05 08:58:32,839:No updates to be made to mob_kills
+INFO:2021-04-05 08:58:32,840:Commited all changes to the test_db database.
+INFO:2021-04-05 08:58:32,840:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:32,840:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:52,840:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:58:52,841:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:52,847:No inserts to be made into mob_kills
+INFO:2021-04-05 08:58:52,847:No updates to be made to mob_kills
+INFO:2021-04-05 08:58:52,848:Commited all changes to the test_db database.
+INFO:2021-04-05 08:58:52,848:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:58:52,849:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:12,849:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:12,850:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:12,856:No inserts to be made into mob_kills
+INFO:2021-04-05 08:59:12,857:No updates to be made to mob_kills
+INFO:2021-04-05 08:59:12,857:Commited all changes to the test_db database.
+INFO:2021-04-05 08:59:12,857:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:12,858:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:29,011:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:29,011:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:29,012:No inserts to be made into mob_kills
+INFO:2021-04-05 08:59:29,040:Commited all changes to the test_db database.
+INFO:2021-04-05 08:59:29,040:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:29,040:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:49,040:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 08:59:49,041:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:49,047:No inserts to be made into mob_kills
+INFO:2021-04-05 08:59:49,048:No updates to be made to mob_kills
+INFO:2021-04-05 08:59:49,048:Commited all changes to the test_db database.
+INFO:2021-04-05 08:59:49,048:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 08:59:49,049:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:00:09,050:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:00:09,050:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:00:09,051:No inserts to be made into mob_kills
+INFO:2021-04-05 09:00:09,051:No updates to be made to mob_kills
+INFO:2021-04-05 09:00:09,051:Commited all changes to the test_db database.
+INFO:2021-04-05 09:00:09,052:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:00:09,052:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:00:37,370:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:00:37,371:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:00:37,372:No inserts to be made into mob_kills
+INFO:2021-04-05 09:00:37,372:No updates to be made to mob_kills
+INFO:2021-04-05 09:00:37,372:Commited all changes to the test_db database.
+INFO:2021-04-05 09:00:37,372:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:00:37,372:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:14,168:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:14,169:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:14,170:No inserts to be made into mob_kills
+INFO:2021-04-05 09:02:14,170:No updates to be made to mob_kills
+INFO:2021-04-05 09:02:14,170:Commited all changes to the test_db database.
+INFO:2021-04-05 09:02:14,170:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:14,170:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:34,170:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:34,170:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:34,171:No inserts to be made into mob_kills
+INFO:2021-04-05 09:02:34,171:No updates to be made to mob_kills
+INFO:2021-04-05 09:02:34,171:Commited all changes to the test_db database.
+INFO:2021-04-05 09:02:34,171:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:34,171:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:40,959:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:40,959:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:40,960:No inserts to be made into mob_kills
+INFO:2021-04-05 09:02:40,960:No updates to be made to mob_kills
+INFO:2021-04-05 09:02:40,960:Commited all changes to the test_db database.
+INFO:2021-04-05 09:02:40,960:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:40,960:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:53,885:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:02:53,885:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:53,886:No inserts to be made into mob_kills
+INFO:2021-04-05 09:02:53,886:No updates to be made to mob_kills
+INFO:2021-04-05 09:02:53,886:Commited all changes to the test_db database.
+INFO:2021-04-05 09:02:53,886:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:02:53,886:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:03:32,158:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:03:32,158:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:03:32,159:No inserts to be made into mob_kills
+INFO:2021-04-05 09:03:32,159:No updates to be made to mob_kills
+INFO:2021-04-05 09:03:32,160:Commited all changes to the test_db database.
+INFO:2021-04-05 09:03:32,160:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:03:32,160:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:03:51,457:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:03:51,457:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:03:51,458:No inserts to be made into mob_kills
+INFO:2021-04-05 09:03:51,458:No updates to be made to mob_kills
+INFO:2021-04-05 09:03:51,458:Commited all changes to the test_db database.
+INFO:2021-04-05 09:03:51,458:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:03:51,458:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:04:34,562:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:04:34,562:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:04:34,568:No inserts to be made into mob_kills
+INFO:2021-04-05 09:04:34,568:No updates to be made to mob_kills
+INFO:2021-04-05 09:04:34,568:Commited all changes to the test_db database.
+INFO:2021-04-05 09:04:34,568:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:04:34,568:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:04:51,745:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:04:51,745:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:04:51,746:No inserts to be made into mob_kills
+INFO:2021-04-05 09:04:51,746:No updates to be made to mob_kills
+INFO:2021-04-05 09:04:51,746:Commited all changes to the test_db database.
+INFO:2021-04-05 09:04:51,746:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:04:51,746:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:05:10,650:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:05:10,650:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:05:10,651:No inserts to be made into mob_kills
+INFO:2021-04-05 09:05:10,651:No updates to be made to mob_kills
+INFO:2021-04-05 09:05:10,651:Commited all changes to the test_db database.
+INFO:2021-04-05 09:05:10,651:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:05:10,651:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:24,530:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:24,531:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:24,532:No inserts to be made into mob_kills
+INFO:2021-04-05 09:07:24,532:No updates to be made to mob_kills
+INFO:2021-04-05 09:07:24,532:Commited all changes to the test_db database.
+INFO:2021-04-05 09:07:24,532:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:24,532:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:44,532:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:44,534:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:44,537:No inserts to be made into mob_kills
+INFO:2021-04-05 09:07:44,537:No updates to be made to mob_kills
+INFO:2021-04-05 09:07:44,537:Commited all changes to the test_db database.
+INFO:2021-04-05 09:07:44,537:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:44,537:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:50,170:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:50,170:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:50,171:No updates to be made to mob_kills
+INFO:2021-04-05 09:07:50,172:Commited all changes to the test_db database.
+INFO:2021-04-05 09:07:50,172:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:50,172:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:59,134:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:07:59,134:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:59,135:No updates to be made to mob_kills
+INFO:2021-04-05 09:07:59,135:Commited all changes to the test_db database.
+INFO:2021-04-05 09:07:59,135:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:07:59,135:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:11:32,487:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:11:32,487:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+ERROR:2021-04-05 09:11:32,488:Failed to insert into mob_kills: Incorrect number of bindings supplied. The current statement uses 3, and there are 4 supplied.
+INFO:2021-04-05 09:11:32,488:No updates to be made to mob_kills
+INFO:2021-04-05 09:11:32,488:Commited all changes to the test_db database.
+INFO:2021-04-05 09:11:32,488:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:11:32,488:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:11:52,488:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:11:52,488:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+ERROR:2021-04-05 09:11:52,489:Failed to insert into mob_kills: Incorrect number of bindings supplied. The current statement uses 3, and there are 4 supplied.
+INFO:2021-04-05 09:11:52,489:No updates to be made to mob_kills
+INFO:2021-04-05 09:11:52,489:Commited all changes to the test_db database.
+INFO:2021-04-05 09:11:52,489:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:11:52,489:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:12:01,251:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:12:01,251:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+ERROR:2021-04-05 09:12:01,252:Failed to insert into mob_kills: Incorrect number of bindings supplied. The current statement uses 3, and there are 4 supplied.
+INFO:2021-04-05 09:12:01,252:No updates to be made to mob_kills
+INFO:2021-04-05 09:12:01,252:Commited all changes to the test_db database.
+INFO:2021-04-05 09:12:01,253:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:12:01,253:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:31:36,858:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:31:36,858:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:31:36,859:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:31:36,860:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:31:55,547:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:31:55,547:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:31:55,548:No updates to be made to mob_kills
+INFO:2021-04-05 09:31:55,564:Commited all changes to the test_db database.
+INFO:2021-04-05 09:31:55,564:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:31:55,564:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:15,564:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:15,565:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:15,569:No updates to be made to mob_kills
+INFO:2021-04-05 09:32:15,584:Commited all changes to the test_db database.
+INFO:2021-04-05 09:32:15,584:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:15,584:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:35,585:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:35,585:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:35,587:No updates to be made to mob_kills
+INFO:2021-04-05 09:32:35,601:Commited all changes to the test_db database.
+INFO:2021-04-05 09:32:35,601:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:35,601:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:55,602:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:32:55,602:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:55,604:No updates to be made to mob_kills
+INFO:2021-04-05 09:32:55,619:Commited all changes to the test_db database.
+INFO:2021-04-05 09:32:55,619:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:32:55,619:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:03,717:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:03,717:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:03,718:No updates to be made to mob_kills
+INFO:2021-04-05 09:34:03,731:Commited all changes to the test_db database.
+INFO:2021-04-05 09:34:03,731:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:03,731:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:23,732:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:23,733:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:23,735:No inserts to be made into mob_kills
+INFO:2021-04-05 09:34:23,735:No updates to be made to mob_kills
+INFO:2021-04-05 09:34:23,735:Commited all changes to the test_db database.
+INFO:2021-04-05 09:34:23,736:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:23,736:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:43,736:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:34:43,737:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:43,741:No inserts to be made into mob_kills
+INFO:2021-04-05 09:34:43,741:No updates to be made to mob_kills
+INFO:2021-04-05 09:34:43,741:Commited all changes to the test_db database.
+INFO:2021-04-05 09:34:43,741:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:34:43,741:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:35:03,741:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-05 09:35:03,742:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:35:03,746:No inserts to be made into mob_kills
+INFO:2021-04-05 09:35:03,762:Commited all changes to the test_db database.
+INFO:2021-04-05 09:35:03,762:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-05 09:35:03,762:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
