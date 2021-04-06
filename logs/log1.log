@@ -2840,3 +2840,35 @@ INFO:2021-04-05 09:35:03,746:No inserts to be made into mob_kills
 INFO:2021-04-05 09:35:03,762:Commited all changes to the test_db database.
 INFO:2021-04-05 09:35:03,762:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
 INFO:2021-04-05 09:35:03,762:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db
+INFO:2021-04-06 10:10:16,503:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:10:16,509:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:16,509:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-06 10:10:16,512:No new users found.
+INFO:2021-04-06 10:10:16,512:Commited all changes to the minecraft_database.
+INFO:2021-04-06 10:10:16,513:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:16,513:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:10:36,513:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:10:36,514:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:36,515:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-06 10:10:36,516:Found new playerID in the essentials folder: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+INFO:2021-04-06 10:10:36,532:Inserted new data into player_info for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b 
+                        user_name: Kristijonas13
+                        date_joined: 2021-03-12 12:46:51.514536 
+INFO:2021-04-06 10:10:36,532:Initialized legendary_beasts_killed database for playerID: b75cd4f1-8df8-42ce-b2ac-c155913b204b
+INFO:2021-04-06 10:10:36,561:Commited all changes to the minecraft_database.
+INFO:2021-04-06 10:10:36,561:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:36,561:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:10:56,562:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:10:56,562:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:56,562:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-06 10:10:56,563:No new users found.
+INFO:2021-04-06 10:10:56,563:Commited all changes to the minecraft_database.
+INFO:2021-04-06 10:10:56,563:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:10:56,563:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:11:16,564:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-06 10:11:16,564:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:11:16,564:Checking for new  users in: C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/
+INFO:2021-04-06 10:11:16,564:No new users found.
+INFO:2021-04-06 10:11:16,565:Commited all changes to the minecraft_database.
+INFO:2021-04-06 10:11:16,565:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-06 10:11:16,565:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db

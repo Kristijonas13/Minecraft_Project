@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 03/12/2021
-#Last Modified: 04/05/2021
+#Last Modified: 04/06/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
@@ -22,7 +22,7 @@ from mob_kills import mob_kills
 #paths
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
-databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\test_db.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
+databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
 mob_path= r"C:\Users\Kristijonas\Desktop\Spigot\plugins\MythicMobs\mobs"
 sqliteConnection = ['','']
 cursor = ['','']
@@ -46,7 +46,7 @@ def main():
             count = count + 1
 
         #check for new players; if new players exist, insert them into the test_db
-        #insert_new_players(essentials_path, cursor[0], beast_name_list)
+        insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
         #update_player_info_table(essentials_path, cursor[0], cursor[1])
@@ -55,7 +55,7 @@ def main():
         #mob_info(mob_path,cursor[0])
 
         #manipulate the mob_kills table
-        mob_kills(cursor[0], cursor[1])
+        #mob_kills(cursor[0], cursor[1])
 
         #close the cursors
         cursor[0].close()
@@ -63,7 +63,7 @@ def main():
         
         #commit data to the database
         sqliteConnection[0].commit()
-        logging.info("Commited all changes to the test_db database.")
+        logging.info("Commited all changes to the minecraft_database.")
         
     except sqlite3.Error as error:
         print("Error:", error)
