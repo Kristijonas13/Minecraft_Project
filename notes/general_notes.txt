@@ -18,8 +18,11 @@
                 * [[mob_name, filename]]
             --- if one of those return an empty list, then the corresponding function will not run
 
---- mob_kills.py    
-    * check_mob_kills()
+--- region.py
+    * check_region()
+        ~ check the last modified date of the file and update the regions based on the last time it was modified
+    * insert_region()
+    *update_region()
             
 
 
