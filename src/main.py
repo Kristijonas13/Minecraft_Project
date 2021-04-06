@@ -14,12 +14,14 @@ from player_info import player_info
 from mob_info import mob_info
 from mob_kills import mob_kills
 from player_stats import player_stats
+from region import region
 
 #paths
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 databases = [r"D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db",r"C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db"]
 mob_path= r"C:\Users\Kristijonas\Desktop\Spigot\plugins\MythicMobs\mobs"
+region_path = r"C:\Users\Kristijonas\Desktop\Spigot\other\region_info"
 sqliteConnection = ['','']
 cursor = ['','']
 
@@ -42,18 +44,21 @@ def main():
             count = count + 1
 
         #check for new players; if new players exist, insert them into the test_db
-        insert_new_players(essentials_path, cursor[0], beast_name_list)
+        #insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
-        player_info(essentials_path, cursor[0], cursor[1])
+        #player_info(essentials_path, cursor[0], cursor[1])
 
         #update the player_stats table 
-        player_stats(essentials_path, cursor[0], cursor[1])
+        #player_stats(essentials_path, cursor[0], cursor[1])
         #manipulate the mob_info table
         #mob_info(mob_path,cursor[0])
 
         #manipulate the mob_kills table
         #mob_kills(cursor[0], cursor[1])
+
+        #manipulate the region tables
+        region(region_path, cursor[0])
 
         #close the cursors
         cursor[0].close()
