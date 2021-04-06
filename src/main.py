@@ -5,19 +5,15 @@
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
 
-
-
-#imports
 import requests 
 import sqlite3
 import time 
 from new_player import insert_new_players
 import logging 
-from player_info import update_player_info_table
+from player_info import player_info
 from mob_info import mob_info
 from mob_kills import mob_kills
-
-
+from player_stats import player_stats
 
 #paths
 essentials_path = 'C:/Users/Kristijonas/Desktop/Spigot/plugins/Essentials/userdata/'
@@ -49,8 +45,10 @@ def main():
         insert_new_players(essentials_path, cursor[0], beast_name_list)
 
         #update the player_info table
-        #update_player_info_table(essentials_path, cursor[0], cursor[1])
+        player_info(essentials_path, cursor[0], cursor[1])
 
+        #update the player_stats table 
+        player_stats(essentials_path, cursor[0], cursor[1])
         #manipulate the mob_info table
         #mob_info(mob_path,cursor[0])
 
