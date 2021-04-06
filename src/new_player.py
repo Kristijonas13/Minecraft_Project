@@ -3,17 +3,12 @@
 #Last Modified: 04/06/2021
 #Description: Python file containing functions that deal with inserting new players into the database. 
 
-
-
-#imports
 from datetime import datetime
 import sqlite3
 import os
 import yaml
 import logging 
 
-
-#logging
 logging.basicConfig(format='%(levelname)s:%(asctime)s:%(message)s', filename="D:/Users/Kristijonas/workspace/minecraft_code/logs/log1.log", level=logging.INFO)
 
 
@@ -66,7 +61,6 @@ def initialize_new_players(essentials_path, cursor, playerID_list, beast_name_li
             user_name = get_user_name(player_path)
             player_info_tuple = (playerID, 'Not Chosen Yet', user_name, date_joined, date_joined)
 
-            print("inserting player_info")
             player_info_insert_query = 'insert into player_info (playerID, user_race, user_name, last_login, date_joined) values (?,?,?,?,?)'
             cursor.execute(player_info_insert_query, player_info_tuple)
             logging.info('''Inserted new data into player_info for playerID: %s 
