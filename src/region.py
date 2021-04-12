@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 04/06/2021
-#Last Modified: 04/06/2021
+#Last Modified: 04/07/2021
 #Description: Python file containing functions that inserts, updates, and deletes records from the region tables. 
 
 
@@ -67,73 +67,38 @@ def delete_region(delete_list, cursor):
 def insert_region(insert_list, cursor, region_path):
 
     data_list = [] 
+    table_column_list = []
+    column_list= []
+    query_list = []
+    
     try: 
         for file_path in insert_list:
             with open(file_path) as file:
                 region_dict = json.load(file)
-
-        for table, columns in region_dict.items(): 
-            print(table)
-            for column in columns:
-                print(column)
-        ax = create_insert_query_list(['region_info', ['region_name', 'description']],region_dict)
-        query_list = create_insert_queries(ax)
-        for query in query_list: 
-            cursor.execute(query)
+                region_name = region_dict["region_info"][0]["region_name"]
+            for table, columns in region_dict.items():
+                for column in columns:
+                    table_column_list.append([table,list(column.keys())])
+                    break
+            for table_column in table_column_list:
+                column_list.append(create_insert_query_list(table_column,region_dict))
+            for column in column_list: 
+                query_list.append(create_insert_queries(column))
+            for query in query_list:
+                for q in query: 
+                    cursor.execute(q)
+            last_modified = get_last_modified(file_path)
+            sqlite_update_query = "update region_info set last_modified = '" + str(last_modified) + "' where region_name = '" + region_name + "';" 
+            cursor.execute(sqlite_update_query)
         
     except sqlite3.Error as error:
-        print("error")
+        print(error)
 
 
-
-def create_insert_queries(insert_query_list):
-
-    queries = []
-    
-    for value in insert_query_list[2]:
-        sqlite_insert_query = 'insert into ' + str(insert_query_list[0]) + ' ('
-        for column_name in insert_query_list[1]:
-            sqlite_insert_query = sqlite_insert_query + str(column_name) + ', '
-        sqlite_insert_query= sqlite_insert_query[:-2] + ') values ('
-        for valu in value: 
-            sqlite_insert_query= sqlite_insert_query + "'"+str(valu) + "',"
-        sqlite_insert_query = sqlite_insert_query[:-1] + ');' 
-        queries.append(sqlite_insert_query)
-    return queries
-    
-    
-
-
-def create_insert_query_list(name_column,region_dict):
-
-    insert_query_list = []
-    ax = []
-    ax.append(name_column[0])
-    ax.append(name_column[1])
-    ax.append(get_insert_values(region_dict[name_column[0]], name_column[1]))
-    ax.append(len(name_column[1]))
-    return ax
-
-    #[region_table, [column1,column2], [(values),(value)], num_of_columns]
-
-    
-    values_list = get_insert_values
-
-def get_insert_values(table_name, column_names_list):
-    
-    values_list = []
-    values2_list = []
-    for name in table_name:
-        for column in column_names_list:
-            values_list.append(name[column])
-        values2_list.append(tuple(values_list))
-        values_list = []
-    return values2_list
 
 #return nested list [region_name, last_modified, filename, table_to_modify, [[old_values,new_values]],]
 def update_region(update_list, cursor):
     print("update")
-
 
 
 
@@ -199,8 +164,51 @@ def check_last_modified(region_path, cursor):
         print("error")
 
 
+
 def get_last_modified(region_file):
 
     unix_created_time = os.path.getmtime(region_file)
     date_time = datetime.fromtimestamp(unix_created_time)
     return date_time  
+
+
+
+
+def create_insert_queries(insert_query_list):
+
+    queries = []
+    
+    for value in insert_query_list[2]:
+        sqlite_insert_query = 'insert into ' + str(insert_query_list[0]) + ' ('
+        for column_name in insert_query_list[1]:
+            sqlite_insert_query = sqlite_insert_query + str(column_name) + ', '
+        sqlite_insert_query= sqlite_insert_query[:-2] + ') values ('
+        for valu in value: 
+            sqlite_insert_query= sqlite_insert_query + "'"+str(valu) + "',"
+        sqlite_insert_query = sqlite_insert_query[:-1] + ');' 
+        queries.append(sqlite_insert_query)
+    return queries
+    
+    
+
+def create_insert_query_list(name_column,region_dict):
+
+    insert_query_list = []
+    insert_query_list.append(name_column[0])
+    insert_query_list.append(name_column[1])
+    insert_query_list.append(get_insert_values(region_dict[name_column[0]], name_column[1]))
+    insert_query_list.append(len(name_column[1]))
+    return insert_query_list
+
+
+
+def get_insert_values(table_name, column_names_list):
+    
+    values_list = []
+    values2_list = []
+    for name in table_name:
+        for column in column_names_list:
+            values_list.append(name[column])
+        values2_list.append(tuple(values_list))
+        values_list = []
+    return values2_list

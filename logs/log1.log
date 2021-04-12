@@ -7320,3 +7320,612 @@ INFO:2021-04-07 13:58:56,449:No updates to be made to region
 INFO:2021-04-07 13:58:56,449:Commited all changes to the minecraft_database.
 INFO:2021-04-07 13:58:56,449:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
 INFO:2021-04-07 13:58:56,449:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:35:50,926:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:35:50,926:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:35:50,927:No deletions to be made from region
+INFO:2021-04-07 17:35:50,929:No updates to be made to region
+INFO:2021-04-07 17:35:50,929:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:35:50,929:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:35:50,929:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:36:18,245:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:36:18,245:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:36:18,246:No deletions to be made from region
+INFO:2021-04-07 17:36:18,248:No updates to be made to region
+INFO:2021-04-07 17:36:18,248:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:36:18,248:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:36:18,248:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:39:40,110:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:39:40,110:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:39:40,110:No deletions to be made from region
+INFO:2021-04-07 17:39:40,111:No updates to be made to region
+INFO:2021-04-07 17:39:40,111:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:39:40,111:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:39:40,111:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:00,112:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:00,112:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:00,112:No deletions to be made from region
+INFO:2021-04-07 17:40:00,114:No updates to be made to region
+INFO:2021-04-07 17:40:00,114:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:40:00,114:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:00,114:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:13,131:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:13,131:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:13,132:No deletions to be made from region
+INFO:2021-04-07 17:40:13,133:No updates to be made to region
+INFO:2021-04-07 17:40:13,133:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:40:13,133:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:13,133:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:48,847:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:40:48,847:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:48,848:No deletions to be made from region
+INFO:2021-04-07 17:40:48,849:No updates to be made to region
+INFO:2021-04-07 17:40:48,850:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:40:48,850:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:40:48,850:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:05,576:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:05,576:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:05,577:No deletions to be made from region
+INFO:2021-04-07 17:41:05,577:No updates to be made to region
+INFO:2021-04-07 17:41:05,577:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:41:05,578:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:05,578:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:25,578:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:25,579:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:25,582:No deletions to be made from region
+INFO:2021-04-07 17:41:25,587:No updates to be made to region
+INFO:2021-04-07 17:41:25,588:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:41:25,588:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:25,589:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:45,590:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:41:45,591:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:45,594:No deletions to be made from region
+INFO:2021-04-07 17:41:45,599:No updates to be made to region
+INFO:2021-04-07 17:41:45,600:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:41:45,600:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:41:45,600:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:05,600:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:05,600:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:05,601:No deletions to be made from region
+INFO:2021-04-07 17:42:05,602:No updates to be made to region
+INFO:2021-04-07 17:42:05,602:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:42:05,602:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:05,602:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:25,602:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:25,603:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:25,606:No deletions to be made from region
+INFO:2021-04-07 17:42:25,609:No updates to be made to region
+INFO:2021-04-07 17:42:25,609:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:42:25,609:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:25,609:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:45,610:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:42:45,610:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:45,610:No deletions to be made from region
+INFO:2021-04-07 17:42:45,612:No updates to be made to region
+INFO:2021-04-07 17:42:45,612:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:42:45,612:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:42:45,612:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:01,040:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:01,040:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:01,040:No deletions to be made from region
+INFO:2021-04-07 17:43:01,042:No updates to be made to region
+INFO:2021-04-07 17:43:01,042:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:43:01,042:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:01,042:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:21,042:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:21,042:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:21,043:No deletions to be made from region
+INFO:2021-04-07 17:43:21,044:No updates to be made to region
+INFO:2021-04-07 17:43:21,044:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:43:21,045:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:21,045:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:41,045:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:43:41,045:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:41,046:No deletions to be made from region
+INFO:2021-04-07 17:43:41,047:No updates to be made to region
+INFO:2021-04-07 17:43:41,047:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:43:41,047:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:43:41,048:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:46:02,430:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:46:02,430:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:46:02,431:No deletions to be made from region
+INFO:2021-04-07 17:46:02,431:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:46:02,431:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:12,226:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:12,226:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:12,226:No deletions to be made from region
+INFO:2021-04-07 17:47:12,227:No updates to be made to region
+INFO:2021-04-07 17:47:12,227:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:47:12,227:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:12,227:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:32,228:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:32,228:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:32,229:No deletions to be made from region
+INFO:2021-04-07 17:47:32,229:No updates to be made to region
+INFO:2021-04-07 17:47:32,229:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:47:32,229:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:32,229:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:52,229:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:47:52,229:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:52,230:No deletions to be made from region
+INFO:2021-04-07 17:47:52,230:No updates to be made to region
+INFO:2021-04-07 17:47:52,230:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:47:52,230:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:47:52,230:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:12,231:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:12,231:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:12,232:No deletions to be made from region
+INFO:2021-04-07 17:48:12,233:No updates to be made to region
+INFO:2021-04-07 17:48:12,233:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:48:12,233:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:12,233:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:32,233:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:32,234:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:32,237:No deletions to be made from region
+INFO:2021-04-07 17:48:32,238:No updates to be made to region
+INFO:2021-04-07 17:48:32,238:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:48:32,238:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:32,238:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:52,240:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:48:52,240:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:52,241:No deletions to be made from region
+INFO:2021-04-07 17:48:52,241:No updates to be made to region
+INFO:2021-04-07 17:48:52,241:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:48:52,241:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:48:52,241:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:21,977:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:21,977:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:21,978:No deletions to be made from region
+INFO:2021-04-07 17:49:21,979:No updates to be made to region
+INFO:2021-04-07 17:49:21,979:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:49:21,979:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:21,979:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:41,979:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:41,980:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:41,983:No deletions to be made from region
+INFO:2021-04-07 17:49:41,987:No updates to be made to region
+INFO:2021-04-07 17:49:41,988:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:49:41,988:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:41,989:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:55,264:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:49:55,264:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:55,265:No deletions to be made from region
+INFO:2021-04-07 17:49:55,266:No updates to be made to region
+INFO:2021-04-07 17:49:55,266:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:49:55,266:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:49:55,266:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:50:15,266:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:50:15,267:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:50:15,270:No deletions to be made from region
+INFO:2021-04-07 17:50:15,272:No updates to be made to region
+INFO:2021-04-07 17:50:15,272:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:50:15,272:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:50:15,272:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:50:27,226:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:50:27,226:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:50:27,226:No deletions to be made from region
+INFO:2021-04-07 17:50:27,227:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:50:27,227:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:03,964:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:03,964:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:03,965:No deletions to be made from region
+INFO:2021-04-07 17:51:03,966:No updates to be made to region
+INFO:2021-04-07 17:51:03,966:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:51:03,966:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:03,966:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:23,968:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:23,968:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:23,969:No deletions to be made from region
+INFO:2021-04-07 17:51:23,970:No updates to be made to region
+INFO:2021-04-07 17:51:23,970:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:51:23,970:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:23,971:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:43,971:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:51:43,971:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:43,971:No deletions to be made from region
+INFO:2021-04-07 17:51:43,973:No updates to be made to region
+INFO:2021-04-07 17:51:43,973:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:51:43,974:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:51:43,974:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:03,975:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:03,975:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:03,976:No deletions to be made from region
+INFO:2021-04-07 17:52:03,977:No updates to be made to region
+INFO:2021-04-07 17:52:03,977:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:52:03,977:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:03,977:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:23,162:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:23,163:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:23,163:No deletions to be made from region
+INFO:2021-04-07 17:52:23,164:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:23,164:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:39,625:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:39,625:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:39,626:No deletions to be made from region
+INFO:2021-04-07 17:52:39,627:No updates to be made to region
+INFO:2021-04-07 17:52:39,627:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:52:39,627:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:39,627:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:54,651:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:52:54,651:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:54,652:No deletions to be made from region
+INFO:2021-04-07 17:52:54,652:No updates to be made to region
+INFO:2021-04-07 17:52:54,652:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:52:54,652:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:52:54,652:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:14,652:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:14,652:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:14,653:No deletions to be made from region
+INFO:2021-04-07 17:53:14,653:No updates to be made to region
+INFO:2021-04-07 17:53:14,653:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:53:14,653:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:14,653:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:34,097:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:34,098:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:34,098:No deletions to be made from region
+INFO:2021-04-07 17:53:34,099:No updates to be made to region
+INFO:2021-04-07 17:53:34,099:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:53:34,099:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:34,099:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:54,099:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:53:54,100:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:54,103:No deletions to be made from region
+INFO:2021-04-07 17:53:54,108:No updates to be made to region
+INFO:2021-04-07 17:53:54,108:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:53:54,108:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:53:54,109:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:14,110:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:14,111:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:14,114:No deletions to be made from region
+INFO:2021-04-07 17:54:14,117:No updates to be made to region
+INFO:2021-04-07 17:54:14,117:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:54:14,117:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:14,117:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:29,058:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:29,059:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:29,059:No deletions to be made from region
+INFO:2021-04-07 17:54:29,060:No updates to be made to region
+INFO:2021-04-07 17:54:29,060:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:54:29,060:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:29,060:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:49,061:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:54:49,061:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:49,062:No deletions to be made from region
+INFO:2021-04-07 17:54:49,063:No updates to be made to region
+INFO:2021-04-07 17:54:49,063:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:54:49,063:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:54:49,063:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:05,709:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:05,710:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:05,710:No deletions to be made from region
+INFO:2021-04-07 17:55:05,711:No updates to be made to region
+INFO:2021-04-07 17:55:05,711:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:55:05,711:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:05,711:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:21,308:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:21,308:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:21,309:No deletions to be made from region
+INFO:2021-04-07 17:55:21,309:No updates to be made to region
+INFO:2021-04-07 17:55:21,309:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:55:21,309:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:21,309:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:41,309:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:55:41,309:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:41,309:No deletions to be made from region
+INFO:2021-04-07 17:55:41,311:No updates to be made to region
+INFO:2021-04-07 17:55:41,327:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:55:41,328:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:55:41,328:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:56:44,743:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:56:44,744:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:56:44,744:No deletions to be made from region
+INFO:2021-04-07 17:56:44,745:No updates to be made to region
+INFO:2021-04-07 17:56:44,745:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:56:44,745:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:56:44,745:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:57:04,745:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 17:57:04,745:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:57:04,745:No deletions to be made from region
+INFO:2021-04-07 17:57:04,748:No updates to be made to region
+INFO:2021-04-07 17:57:04,762:Commited all changes to the minecraft_database.
+INFO:2021-04-07 17:57:04,762:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 17:57:04,762:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:37:50,077:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:37:50,077:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:37:50,078:No deletions to be made from region
+INFO:2021-04-07 20:37:50,078:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:37:50,078:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:00,944:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:00,944:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:00,945:No deletions to be made from region
+INFO:2021-04-07 20:38:00,945:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:00,945:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:05,662:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:05,662:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:05,663:No deletions to be made from region
+INFO:2021-04-07 20:38:05,663:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:05,663:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:20,515:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:20,516:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:20,516:No deletions to be made from region
+INFO:2021-04-07 20:38:20,518:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:20,518:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:54,406:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:38:54,406:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:54,407:No deletions to be made from region
+INFO:2021-04-07 20:38:54,408:No updates to be made to region
+INFO:2021-04-07 20:38:54,423:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:38:54,423:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:38:54,423:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:39:27,308:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:39:27,308:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:39:27,309:No deletions to be made from region
+INFO:2021-04-07 20:39:27,311:No updates to be made to region
+INFO:2021-04-07 20:39:27,326:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:39:27,326:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:39:27,326:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:18,860:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:18,860:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:18,861:No deletions to be made from region
+INFO:2021-04-07 20:41:18,861:No updates to be made to region
+INFO:2021-04-07 20:41:18,876:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:41:18,877:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:18,877:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:38,877:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:38,877:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:38,877:No deletions to be made from region
+INFO:2021-04-07 20:41:38,879:No updates to be made to region
+INFO:2021-04-07 20:41:38,903:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:41:38,903:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:38,903:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:58,904:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:41:58,904:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:58,905:No deletions to be made from region
+INFO:2021-04-07 20:41:58,905:No updates to be made to region
+INFO:2021-04-07 20:41:58,905:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:41:58,905:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:41:58,905:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:18,905:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:18,905:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:18,906:No deletions to be made from region
+INFO:2021-04-07 20:42:18,906:No updates to be made to region
+INFO:2021-04-07 20:42:18,906:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:42:18,906:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:18,906:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:38,907:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:38,907:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:38,908:No deletions to be made from region
+INFO:2021-04-07 20:42:38,908:No updates to be made to region
+INFO:2021-04-07 20:42:38,908:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:42:38,908:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:38,908:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:58,908:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:42:58,908:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:58,909:No deletions to be made from region
+INFO:2021-04-07 20:42:58,909:No updates to be made to region
+INFO:2021-04-07 20:42:58,909:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:42:58,909:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:42:58,909:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:18,910:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:18,910:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:18,911:No deletions to be made from region
+INFO:2021-04-07 20:43:18,911:No updates to be made to region
+INFO:2021-04-07 20:43:18,911:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:43:18,911:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:18,911:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:38,911:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:38,911:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:38,912:No deletions to be made from region
+INFO:2021-04-07 20:43:38,912:No updates to be made to region
+INFO:2021-04-07 20:43:38,912:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:43:38,912:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:38,912:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:58,913:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:43:58,914:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:58,917:No deletions to be made from region
+INFO:2021-04-07 20:43:58,918:No updates to be made to region
+INFO:2021-04-07 20:43:58,918:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:43:58,919:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:43:58,919:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:18,919:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:18,920:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:18,923:No deletions to be made from region
+INFO:2021-04-07 20:44:18,924:No updates to be made to region
+INFO:2021-04-07 20:44:18,924:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:44:18,924:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:18,924:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:38,925:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:38,925:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:38,926:No deletions to be made from region
+INFO:2021-04-07 20:44:38,926:No updates to be made to region
+INFO:2021-04-07 20:44:38,926:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:44:38,926:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:38,926:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:58,928:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:44:58,929:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:58,932:No deletions to be made from region
+INFO:2021-04-07 20:44:58,934:No updates to be made to region
+INFO:2021-04-07 20:44:58,934:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:44:58,934:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:44:58,934:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:16,004:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:16,005:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:16,005:No deletions to be made from region
+INFO:2021-04-07 20:51:16,006:No updates to be made to region
+INFO:2021-04-07 20:51:16,006:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:51:16,006:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:16,006:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:23,080:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:23,081:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:23,081:No deletions to be made from region
+INFO:2021-04-07 20:51:23,082:No updates to be made to region
+INFO:2021-04-07 20:51:23,097:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:51:23,097:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:23,097:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:43,098:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:51:43,098:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:43,098:No deletions to be made from region
+INFO:2021-04-07 20:51:43,099:No updates to be made to region
+INFO:2021-04-07 20:51:43,099:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:51:43,099:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:51:43,099:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:03,099:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:03,101:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:03,103:No deletions to be made from region
+INFO:2021-04-07 20:52:03,105:No updates to be made to region
+INFO:2021-04-07 20:52:03,105:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:52:03,105:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:03,105:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:23,106:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:23,106:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:23,107:No deletions to be made from region
+INFO:2021-04-07 20:52:23,107:No updates to be made to region
+INFO:2021-04-07 20:52:23,107:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:52:23,107:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:23,107:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:43,107:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:52:43,107:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:43,108:No deletions to be made from region
+INFO:2021-04-07 20:52:43,109:No updates to be made to region
+INFO:2021-04-07 20:52:43,109:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:52:43,109:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:52:43,109:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:03,109:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:03,110:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:03,113:No deletions to be made from region
+INFO:2021-04-07 20:53:03,114:No updates to be made to region
+INFO:2021-04-07 20:53:03,114:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:53:03,114:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:03,114:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:23,115:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:23,115:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:23,115:No deletions to be made from region
+INFO:2021-04-07 20:53:23,116:No updates to be made to region
+INFO:2021-04-07 20:53:23,116:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:53:23,116:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:23,116:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:43,117:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 20:53:43,118:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:43,121:No deletions to be made from region
+INFO:2021-04-07 20:53:43,123:No updates to be made to region
+INFO:2021-04-07 20:53:43,123:Commited all changes to the minecraft_database.
+INFO:2021-04-07 20:53:43,124:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 20:53:43,124:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:13:04,780:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:13:04,780:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:13:04,781:No deletions to be made from region
+INFO:2021-04-07 21:13:04,782:No updates to be made to region
+INFO:2021-04-07 21:13:04,819:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:13:04,819:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:13:04,819:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:13:24,819:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:13:24,819:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:13:24,820:No deletions to be made from region
+INFO:2021-04-07 21:13:24,820:No updates to be made to region
+INFO:2021-04-07 21:13:24,820:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:13:24,820:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:13:24,820:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:01,771:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:01,771:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:01,771:No deletions to be made from region
+INFO:2021-04-07 21:14:01,772:No updates to be made to region
+INFO:2021-04-07 21:14:01,788:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:14:01,788:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:01,788:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:21,789:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:21,790:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:21,793:No deletions to be made from region
+INFO:2021-04-07 21:14:21,794:No updates to be made to region
+INFO:2021-04-07 21:14:21,795:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:14:21,795:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:21,795:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:33,161:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:33,161:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:33,161:No deletions to be made from region
+INFO:2021-04-07 21:14:33,162:No updates to be made to region
+INFO:2021-04-07 21:14:33,177:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:14:33,178:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:33,178:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:53,179:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:14:53,179:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:53,180:No deletions to be made from region
+INFO:2021-04-07 21:14:53,180:No updates to be made to region
+INFO:2021-04-07 21:14:53,180:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:14:53,180:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:14:53,180:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:13,180:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:13,180:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:13,180:No deletions to be made from region
+INFO:2021-04-07 21:15:13,181:No updates to be made to region
+INFO:2021-04-07 21:15:13,181:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:15:13,181:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:13,181:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:33,182:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:33,182:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:33,182:No deletions to be made from region
+INFO:2021-04-07 21:15:33,183:No updates to be made to region
+INFO:2021-04-07 21:15:33,183:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:15:33,183:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:33,183:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:53,183:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:15:53,183:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:53,184:No deletions to be made from region
+INFO:2021-04-07 21:15:53,186:No updates to be made to region
+INFO:2021-04-07 21:15:53,186:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:15:53,186:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:15:53,186:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:13,186:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:13,186:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:13,186:No deletions to be made from region
+INFO:2021-04-07 21:16:13,187:No updates to be made to region
+INFO:2021-04-07 21:16:13,187:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:16:13,187:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:13,187:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:25,008:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:25,008:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:25,009:No deletions to be made from region
+INFO:2021-04-07 21:16:25,009:No updates to be made to region
+INFO:2021-04-07 21:16:25,009:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:16:25,009:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:25,009:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:45,011:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:45,012:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:45,015:No deletions to be made from region
+INFO:2021-04-07 21:16:45,017:No updates to be made to region
+INFO:2021-04-07 21:16:45,033:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:16:45,033:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:45,033:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:59,895:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-07 21:16:59,896:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:59,896:No deletions to be made from region
+INFO:2021-04-07 21:16:59,897:No updates to be made to region
+INFO:2021-04-07 21:16:59,915:Commited all changes to the minecraft_database.
+INFO:2021-04-07 21:16:59,915:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-07 21:16:59,915:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:47:36,559:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:47:36,560:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:47:36,561:No deletions to be made from region
+INFO:2021-04-09 08:47:36,561:No updates to be made to region
+INFO:2021-04-09 08:47:36,561:Commited all changes to the minecraft_database.
+INFO:2021-04-09 08:47:36,561:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:47:36,561:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:47:56,562:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:47:56,562:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:47:56,562:No deletions to be made from region
+INFO:2021-04-09 08:47:56,562:No updates to be made to region
+INFO:2021-04-09 08:47:56,562:Commited all changes to the minecraft_database.
+INFO:2021-04-09 08:47:56,562:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:47:56,563:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:48:16,564:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:48:16,564:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:48:16,565:No deletions to be made from region
+INFO:2021-04-09 08:48:16,565:No updates to be made to region
+INFO:2021-04-09 08:48:16,565:Commited all changes to the minecraft_database.
+INFO:2021-04-09 08:48:16,565:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:48:16,565:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:48:36,566:Successfully Connected to SQLite db: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db
+INFO:2021-04-09 08:48:36,566:Successfully Connected to SQLite db: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:48:36,567:No deletions to be made from region
+INFO:2021-04-09 08:48:36,567:No updates to be made to region
+INFO:2021-04-09 08:48:36,567:Commited all changes to the minecraft_database.
+INFO:2021-04-09 08:48:36,567:Shutting down SQLITE connection to: C:\Users\Kristijonas\Desktop\Spigot\plugins\BetonQuest\database.db
+INFO:2021-04-09 08:48:36,567:Shutting down SQLITE connection to: D:\Users\Kristijonas\workspace\minecraft_code\database\minecraft_database.db

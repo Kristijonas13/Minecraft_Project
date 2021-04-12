@@ -1,6 +1,6 @@
 #Author: Kristijonas Bileisis
 #Date Created: 03/12/2021
-#Last Modified: 04/06/2021
+#Last Modified: 04/07/2021
 #Description: Integrates with my minecraft RPG server and reads from different files that the Minecraft server spits out. 
 #Python file containing the main function for the project. This deals with inserting new players into the database, making updates 
 #to the database, and deleting users and their corresponding data for users that no longer exist. 
